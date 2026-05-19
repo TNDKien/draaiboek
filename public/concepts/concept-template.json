@@ -1,0 +1,54 @@
+{
+  "_instructies": [
+    "1. Kopieer dit bestand en hernoem het naar concept-JOUNAAM.json",
+    "2. Vul alle velden in (verwijder de '_instructies' sleutel)",
+    "3. Voeg je bestandsnaam toe aan manifest.json onder 'concepten'",
+    "4. Afbeeldingen: zet PNG/JPG in public/images/ en gebruik '/images/bestand.png' als src",
+    "5. Audio: zet MP3 in public/audio/ en gebruik '/audio/bestand.mp3' als src"
+  ],
+  "id": "concept-jounaam",
+  "auteur": "Jouw Naam",
+  "titel": "Naam van je spelconcept",
+  "kleur": "#1a5276",
+  "paginaPairs": [
+    {
+      "id": "jounaam-spread-1",
+      "linker": {
+        "type": "combination",
+        "titel": "Naam van je spel",
+        "subtitel": "Concept X van 5",
+        "badge": "Categorie label",
+        "badgeKleur": "#1a5276",
+        "inhoud": "Korte beschrijving van het spelconcept.\n\nLeeftijd: X–Y jaar\nGroepsgrootte: X–Y kinderen\nDuur: XX–XX minuten",
+        "audio": {
+          "label": "Beluister de speluitleg",
+          "src": "/audio/jouw-audio.mp3",
+          "transcript": "Tekst van de audio (voor slechthorenden en screenreaders)."
+        }
+      },
+      "rechter": {
+        "type": "image",
+        "src": "/images/jouw-afbeelding.png",
+        "paletKleur": "blauw",
+        "afbeelding": {
+          "categorie": "geluid",
+          "alt": "Beschrijving van de afbeelding voor blinde gebruikers",
+          "onderschrift": "Bijschrift dat onder de afbeelding verschijnt"
+        }
+      }
+    },
+    {
+      "id": "jounaam-spread-2",
+      "linker": {
+        "type": "text",
+        "titel": "Materialen & Spelverloop",
+        "inhoud": "Wat heb je nodig:\n\n• Item 1\n• Item 2\n• Item 3\n\nSpelverloop:\n1. Stap één\n2. Stap twee\n3. Stap drie"
+      },
+      "rechter": {
+        "type": "text",
+        "titel": "Variaties & Leerdoelen",
+        "inhoud": "Makkelijker:\n→ Tip voor vereenvoudiging\n\nMoeilijker:\n→ Tip voor uitdaging\n\nDit spel ontwikkelt:\n✦ Vaardigheid 1\n✦ Vaardigheid 2\n✦ Vaardigheid 3"
+      }
+    }
+  ]
+}

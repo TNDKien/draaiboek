@@ -1,0 +1,33 @@
+{
+  "id": "concept-visioball",
+  "auteur": "Spelontwerpteam",
+  "titel": "Visioball – Beacon Battle",
+  "kleur": "#c0392b",
+  "paginaPairs": [
+    {
+      "id": "visioball-spread-1",
+      "linker": {
+        "type": "combination",
+        "titel": "Visioball – Beacon Battle",
+        "subtitel": "Nieuw concept",
+        "badge": "Sport & Technologie",
+        "badgeKleur": "#c0392b",
+        "inhoud": "Een teamspel waarbij blinde spelers beacons opladen door de bal naar ze toe te rollen. Beacons geven geluidssignalen af op basis van hun laadstatus.\n\nLeeftijd: 10–18 jaar\nGroepsgrootte: 4–6 spelers (2 teams)\nDuur: 20–40 minuten",
+        "audio": {
+          "label": "Sonar ping – stilstandssignaal",
+          "src": "/audio/sonar-ping.mp3",
+          "transcript": null
+        }
+      },
+      "rechter": {
+        "type": "image",
+        "paletKleur": "rood",
+        "afbeelding": {
+          "categorie": "kaart",
+          "alt": "Illustratie van het speelveld met beacons, spelers en de Visioball",
+          "onderschrift": "Voeg de afbeelding toe via: public/images/ en zet het pad in 'src'"
+        }
+      }
+    }
+  ]
+}

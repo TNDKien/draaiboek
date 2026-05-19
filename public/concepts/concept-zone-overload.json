@@ -1,0 +1,167 @@
+{
+  "id": "concept-zone-overload",
+  "auteur": "Spelontwerpteam",
+  "titel": "Zone Overload",
+  "kleur": "#0e4d8f",
+  "paginaPairs": [
+    {
+      "id": "zo-spread-1",
+      "linker": {
+        "type": "combination",
+        "titel": "Zone Overload",
+        "subtitel": "Beacon Battle voor blinde kinderen",
+        "badge": "Sport & Technologie",
+        "badgeKleur": "#0e4d8f",
+        "inhoud": "Elke speler verdedigt een vloot van Zones gemarkeerd door fysieke Beacons. De Visioball is de energiebron — zodra de bal in de buurt van een Beacon komt, begint deze te laden.\n\nSpelers gebruiken de Goalball-techniek om de bal te blokkeren en hun Beacons te beschermen. Bij 100% lading valt een Beacon uit. Het team met de laatste actieve Beacons wint.\n\nLeeftijd: 10–18 jaar\nGroepsgrootte: 4–6 spelers (2 teams)\nDuur: 20–40 minuten",
+        "audio": {
+          "label": "Lokalisatiegeluid – bal bij stilstand",
+          "src": "/audio/zone_overload/sonar-ping.mp3",
+          "transcript": "Dit is het sonar ping-geluid dat de Visioball maakt bij stilstand. Spelers gebruiken dit continue geluid om de positie van de bal in de ruimte te bepalen."
+        }
+      },
+      "rechter": {
+        "type": "image",
+        "src": "/images/zone_overload/setup.png",
+        "paletKleur": "blauw",
+        "afbeelding": {
+          "categorie": "samenwerking",
+          "alt": "Opstelling van twee teams op het speelveld. Elke speler heeft een Beacon direct achter of naast zich. De Visioball ligt in het midden. Beacon 1 maakt een piano-geluid, Beacon 2 een vioolgeluid.",
+          "onderschrift": "Opstelling & Identificatie — 2 teams van 2–3 spelers, Visioball in het midden"
+        }
+      }
+    },
+    {
+      "id": "zo-spread-2",
+      "linker": {
+        "type": "image",
+        "src": "/images/zone_overload/aanvalsbal&laden.png",
+        "paletKleur": "blauw",
+        "afbeelding": {
+          "categorie": "geluid",
+          "alt": "Speler rolt de Visioball richting Beacon B2. De laadbalk stijgt van 20% naar 40%. Het charge-ritme versnelt naarmate de lading stijgt. Oplaadzone heeft een straal van 1,5 meter.",
+          "onderschrift": "Aanvalsbal & Laden — binnen 1,5m begint de Beacon energie te trekken"
+        }
+      },
+      "rechter": {
+        "type": "combination",
+        "titel": "Aanvalsbal & Laden",
+        "inhoud": "Wanneer de bal binnen ~1,5 meter van een Beacon komt (Bluetooth RSSI detectie), begint het laden.\n\nGeluiden tijdens laden:\n• Bal in beweging → rolgeluid stijgt mee in pitch (snelheid)\n• Beacon laadt → pulserend ritme versnelt met lading\n• Bal keert terug in gelaagde zone → Spearcon: 'Tachtig procent!'\n\nHoe hoger het laadpercentage, hoe urgenter en sneller het pulserende ritme.",
+        "audio": {
+          "label": "Laadgeluid – charge-ritme versnelt met lading",
+          "src": "/audio/zone_overload/chargin-sound.mp3",
+          "transcript": "Dit is het pulserende laadgeluid van een Beacon. Het ritme versnelt naarmate de lading stijgt — van rustig bij 0% tot zeer urgent bij 100%."
+        }
+      }
+    },
+    {
+      "id": "zo-spread-3",
+      "linker": {
+        "type": "combination",
+        "titel": "Defensie Block",
+        "inhoud": "Verdedigers blokkeren de bal door op hun zij te liggen — de klassieke Goalball-techniek.\n\nZodra de bal de zone verlaat:\n\nDecay (Ontladen):\n• Bal staat stil buiten de zone\n• 3 seconden na inactiviteit → ontladen start\n• 2% per seconde ontladen\n• Dit beloont effectief verdedigen\n\nElke Beacon zendt continu zijn identificatiegeluid uit, zodat verdedigers altijd weten waar hun Beacon staat — ook tijdens het blokken.",
+        "audio": {
+          "label": "Identificatiegeluid – Beacon bij stilstand",
+          "src": "/audio/zone_overload/constant-sound.mp3",
+          "transcript": "Dit constante identificatiegeluid helpt spelers de positie van hun eigen Beacon te bepalen. Elke Beacon heeft een uniek geluidstype zodat spelers ze van elkaar onderscheiden."
+        }
+      },
+      "rechter": {
+        "type": "image",
+        "src": "/images/zone_overload/defensie.png",
+        "paletKleur": "blauw",
+        "afbeelding": {
+          "categorie": "samenwerking",
+          "alt": "Verdediger ligt op zijn zij en blokkeert de Visioball met zijn lichaam. Beacon achter hem toont decay van 2% per seconde na stilstand van de bal. Laadbalk daalt langzaam.",
+          "onderschrift": "Defensie Block — Goalball-techniek houdt de bal buiten de eigen zone"
+        }
+      }
+    },
+    {
+      "id": "zo-spread-4",
+      "linker": {
+        "type": "image",
+        "src": "/images/zone_overload/beacondecay.png",
+        "paletKleur": "blauw",
+        "afbeelding": {
+          "categorie": "geluid",
+          "alt": "Beacon B1 staat op 80% lading. De bal is stilstaand buiten de zone. Drie zandlopers tonen 1s, 2s, 3s waarna het ontladen begint. Spearcon voice meldt '80 procent!'.",
+          "onderschrift": "Beacon Decay — na 3 seconden inactiviteit ontlaadt de Beacon met 2% per seconde"
+        }
+      },
+      "rechter": {
+        "type": "combination",
+        "titel": "Status Updates – Spearcon",
+        "inhoud": "Wanneer de bal terugkeert in een gedeeltelijk geladen zone, hoort de speler een Spearcon: versnelde spraak die het percentage meldt.\n\nVoorbeelden:\n• 'Twintig procent!'\n• 'Vijftig procent!'\n• 'Tachtig procent!'\n\nSpearcons zijn bewust versneld uitgesproken. Dit is sneller te begrijpen dan normale spraak en minder afleidend dan een lange aankondiging.\n\nDe combinatie van het versnellende ritme én de gesproken melding geeft spelers direct tactisch inzicht over de urgentie van de situatie.",
+        "audio": {
+          "label": "Percentage indicator – Spearcon status update",
+          "src": "/audio/zone_overload/unsplit-percentage-indicator.mp3",
+          "transcript": "Dit is een voorbeeld van de Spearcon status update. De versnelde spraak meldt het laadpercentage van een Beacon wanneer de bal terugkeert in de zone."
+        }
+      }
+    },
+    {
+      "id": "zo-spread-5",
+      "linker": {
+        "type": "image",
+        "src": "/images/zone_overload/overload.png",
+        "paletKleur": "rood",
+        "afbeelding": {
+          "categorie": "geluid",
+          "alt": "Beacon B1 bereikt 100% lading en valt uit met bliksem en explosie-effecten. Spearcon voice roept 'Systeemstoring!'. De laadbalk is volledig rood. Dead Zone wordt geactiveerd.",
+          "onderschrift": "Overload — bij 100% klinkt het systeemstoring-geluid en valt de Beacon definitief uit"
+        }
+      },
+      "rechter": {
+        "type": "combination",
+        "titel": "Overload & Uitschakeling",
+        "inhoud": "Bij 100% lading valt de Beacon uit:\n\n① Systeemstoring-geluid klinkt\n② Spearcon voice: 'Systeemstoring!'\n③ Beacon stopt met alle geluiden\n④ Zone wordt 'Dead Zone'\n\nDe stilte na het uitschakelgeluid is bewust — het markeert duidelijk dat die Beacon uit het spel is. Aanvallers moeten hun focus verleggen naar nog actieve Beacons van de tegenstander.",
+        "audio": {
+          "label": "Uitschakelgeluid – Beacon overloaded",
+          "src": "/audio/zone_overload/overloaded-device.mp3",
+          "transcript": "Dit is het overload-geluid dat klinkt wanneer een Beacon 100% bereikt. Na dit geluid volgt stilte voor die specifieke Beacon — een duidelijk signaal dat de zone uit het spel is."
+        }
+      }
+    },
+    {
+      "id": "zo-spread-6",
+      "linker": {
+        "type": "image",
+        "src": "/images/zone_overload/deadzonescenario.png",
+        "paletKleur": "rood",
+        "afbeelding": {
+          "categorie": "kaart",
+          "alt": "Beacon B2 is uitgeschakeld. De Dead Zone is rood gemarkeerd met een kruis. De Visioball rolt de Dead Zone in en maakt een doffe error-buzzer. Speler verdedigt de inactieve zone.",
+          "onderschrift": "Dead Zone Scenario — error-buzzer waarschuwt aanvallers dat deze zone niet meer geldig is"
+        }
+      },
+      "rechter": {
+        "type": "combination",
+        "titel": "Dead Zone",
+        "inhoud": "Wanneer de bal een uitgeschakelde zone binnenrolt:\n\n• Bal maakt een doffe error-buzzer (lage, korte toon)\n• Dit signaleert aanvallers om richting te wijzigen\n• De zone geeft geen laadgeluid meer — alleen de buzzer\n\nDead Zone geluidshiërarchie:\n→ Actieve zone: pulserend laadritme\n→ Dead zone: error-buzzer bij binnenkomst, dan stilte\n\nDe verdediger van een Dead Zone blijft actief — zijn positie kan nog steeds tactisch waardevol zijn om aanvallers te sturen.",
+        "audio": {
+          "label": "Dead zone geluid – error-buzzer",
+          "src": "/audio/zone_overload/error-buzzer.mp3",
+          "transcript": "Dit is de doffe error-buzzer die klinkt wanneer de bal een uitgeschakelde Dead Zone binnenrolt. De lage, korte toon geeft aanvallers direct het signaal om hun richting te wijzigen."
+        }
+      }
+    },
+    {
+      "id": "zo-spread-7",
+      "linker": {
+        "type": "text",
+        "titel": "Geluidshiërarchie",
+        "inhoud": "Het spel is volledig speelbaar zonder zicht dankzij zeven gelaagde geluidsevents:\n\n① Lokalisatie (Auditory Icon)\nBal maakt continu sonar ping bij stilstand.\n\n② Beweging (Earcon)\nPitch van het rolgeluid stijgt met snelheid.\n\n③ Identificatie (Earcon)\nElke Beacon heeft een eigen uniek geluidstype.\n\n④ Laden (Earcon)\nPulserend ritme versnelt naarmate lading stijgt.\n\n⑤ Status Update (Spearcon)\nVersnelde spraak bij terugkeer: 'Tachtig procent!'\n\n⑥ Uitschakelen (Auditory Icon)\nMachine-uit geluid, dan stilte voor die Beacon.\n\n⑦ Dead Zone (Earcon)\nDoffe error-buzzer: lage, korte toon."
+      },
+      "rechter": {
+        "type": "image",
+        "src": "/images/zone_overload/winnen.png",
+        "paletKleur": "blauw",
+        "afbeelding": {
+          "categorie": "samenwerking",
+          "alt": "Eindstand van het spel. Één team heeft nog actieve Beacons, het andere team heeft alle Beacons verloren. Het winnende team viert feest.",
+          "onderschrift": "Winnen — het team met de laatste actieve Beacons wint het spel"
+        }
+      }
+    }
+  ]
+}
