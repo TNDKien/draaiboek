@@ -149,18 +149,17 @@
       "id": "zo-spread-7",
       "linker": {
         "type": "text",
-        "titel": "Geluidshiërarchie",
-        "inhoud": "Het spel is volledig speelbaar zonder zicht dankzij zeven gelaagde geluidsevents:\n\n① Lokalisatie (Auditory Icon)\nBal maakt continu sonar ping bij stilstand.\n\n② Beweging (Earcon)\nPitch van het rolgeluid stijgt met snelheid.\n\n③ Identificatie (Earcon)\nElke Beacon heeft een eigen uniek geluidstype.\n\n④ Laden (Earcon)\nPulserend ritme versnelt naarmate lading stijgt.\n\n⑤ Status Update (Spearcon)\nVersnelde spraak bij terugkeer: 'Tachtig procent!'\n\n⑥ Uitschakelen (Auditory Icon)\nMachine-uit geluid, dan stilte voor die Beacon.\n\n⑦ Dead Zone (Earcon)\nDoffe error-buzzer: lage, korte toon."
+        "titel": "Technische Realisatie",
+        "subtitel": "Hardware & Communicatie",
+        "badge": "Voor Developers",
+        "badgeKleur": "#1a6b3c",
+        "inhoud": "Visioball (slimme bal)\n• Microcontroller: ESP32 (Wi-Fi + BLE ingebouwd)\n• Bewegingssensor: IMU MPU-6050 (versnelling → pitch rolgeluid)\n• Audio-output: kleine versterker + 8Ω luidspreker in de bal\n• Voeding: LiPo 3.7V, draadloos opladen via Qi\n• BLE-rol: Peripheral — adverteert UUID + sensordata\n\nBeacons\n• Hardware: nRF52-gebaseerde BLE-beacon (bijv. Minew E7)\n• Adverteert iBeacon-pakket met uniek Major/Minor ID\n• Geen actieve verbinding nodig — app leest RSSI passief\n• Afstandsmapping: RSSI ≥ −65 dBm ≈ binnen 1,5m laadzone\n\nApp (spelleider/referee device)\n• Platform: iOS of Android (of web via Web Bluetooth API)\n• BLE-rol: Central — scant continu alle Beacon-RSSI-waarden\n• Verwerkt gamelogica en stuurt geluidsfeedback aan"
       },
       "rechter": {
-        "type": "image",
-        "src": "/images/zone_overload/winnen.png",
-        "paletKleur": "blauw",
-        "afbeelding": {
-          "categorie": "samenwerking",
-          "alt": "Eindstand van het spel. Één team heeft nog actieve Beacons, het andere team heeft alle Beacons verloren. Het winnende team viert feest.",
-          "onderschrift": "Winnen — het team met de laatste actieve Beacons wint het spel"
-        }
+        "type": "text",
+        "titel": "Technische Realisatie",
+        "subtitel": "Software & Spellogica",
+        "inhoud": "Game State Machine\nIDLE → PLAYING → [CHARGING / DECAYING] → BEACON_DEAD → GAME_OVER\n\nLaadlogica (per Beacon, elke seconde)\n• RSSI van bal ≥ −65 dBm → charge += 2% per seconde\n• Bal stil > 3s buiten zone → charge −= 2% per seconde\n• charge = 100% → Beacon DEAD (stopt alle BLE-advertenties)\n\nGeluid triggers (app-side)\n• Rolgeluid pitch: map(imu_acceleration, 0, 10, 220, 880) Hz\n• Laadritme BPM: map(charge, 0, 100, 60, 180) BPM\n• Spearcon: TTS op 2× snelheid bij terugkeer in zone\n• Identificatiegeluid: uniek per Beacon-ID (Major waarde)\n\nAanbevolen stack\n• App: React Native + expo-ble-plx (BLE) + expo-av (audio)\n• Alternatief web: Web Bluetooth API + Web Audio API\n• Balcode: Arduino IDE op ESP32, library: BLE2902\n• Communicatie bal → app: BLE Notify op custom GATT characteristic"
       }
     }
   ]
