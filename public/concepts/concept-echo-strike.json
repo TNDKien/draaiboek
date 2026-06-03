@@ -1,0 +1,167 @@
+{
+  "id": "concept-zone-overload",
+  "auteur": "Spelontwerpteam",
+  "titel": "Zone Overload",
+  "kleur": "#0e4d8f",
+  "paginaPairs": [
+    {
+      
+    "id": "es-spread-1",
+    "linker": {
+      "type": "combination",
+      "titel": "Echo Strike",
+      "subtitel": "Echo Kegelen voor blinde kinderen",
+      "badge": "Sport & Technologie",
+      "badgeKleur": "#0e4d8f",
+      "inhoud": "Echo Strike is een precisiesport ontworpen voor spelers met een visuele beperking.\n\nIn tegenstelling tot traditionele sporten waar geluid stopt bij inactiviteit, maakt Echo Strike gebruik van een Auditief Baken (de Target Ball) dat constant een signaal uitzendt.\n\nSpelers gebruiken hun ruimtelijk gehoor om de afstand en richting van de Target te bepalen en proberen deze te raken met een verzwaarde 'Striker Ball'.\n\nLeeftijd: 10–18 jaar\nGroepsgrootte: 2–4 spelers (Individueel of in teams)\nDuur: 15–30 minuten",
+      "audio": {
+        "label": "Lokalisatiegeluid – Target Ball bij stilstand",
+        "src": "/audio/echo_strike/sonar-ping.mp3",
+        "transcript": "Dit is de constante, zachte sonar-ping die de Target Ball maakt in het centrum van de arena. Spelers gebruiken dit continue ritme om de exacte positie van het doel te bepalen."
+      }
+    },
+    "rechter": {
+      "type": "image",
+      "src": "/images/echo_kegelen/setupek.png",
+      "paletKleur": "blauw",
+      "afbeelding": {
+        "categorie": "samenwerking",
+        "alt": "Opstelling van de arena voor Echo Strike. Een cirkelvormig veld met een straal van 5 meter met de Target Ball exact in het midden. Spelers staan aan de rand van de cirkel op gemarkeerde tactiele tegels.",
+        "onderschrift": "1. SETUP — Cirkelvormig speelveld met tactiele grenzen en de Target Ball in het midden."
+      }
+    }
+  },
+  {
+    "id": "es-spread-2",
+    "linker": {
+      "type": "image",
+      "src": "/images/echo_kegelen/calibration.png",
+      "paletKleur": "blauw",
+      "afbeelding": {
+        "categorie": "geluid",
+        "alt": "Een geblinddoekte speler met een koptelefoon op staat stil op een starttegel en draait his hoofd om naar de sonar-ping van de Target Ball te luisteren.",
+        "onderschrift": "2. CALIBRATION — De speler lokaliseert de exacte vector of richting van de Target Ball op het gehoor."
+      }
+    },
+    "rechter": {
+      "type": "combination",
+      "titel": "De Kalibratiefase",
+      "inhoud": "Voordat de worp plaatsvindt, staat de speler stil op de tactiele starttegel om te kalibreren.\n\nDoor het hoofd rustig te draaien, gebruikt de speler zijn ruimtelijk gehoor om de exacte vector en afstand van de Target Ball te bepalen.\n\nDe starttegel kan via ingebouwde sensoren optionele haptische feedback (zachte trilling) geven wanneer de speler met zijn lichaam exact in de juiste richting staat uitgelijnd.",
+      "audio": {
+        "label": "Kalibratietoon – Richtingassistentie",
+        "src": "/audio/echo_strike/calibration-bloop.mp3",
+        "transcript": "Een subtiele verandering in de toonhoogte of een haptische puls die bevestigt dat de speler recht naar het baken is gekeerd."
+      }
+    }
+  },
+  {
+    "id": "es-spread-3",
+    "linker": {
+      "type": "combination",
+      "titel": "De Worp (The Strike)",
+      "inhoud": "De speler rolt de verzwaarde Striker Ball onderhands over de vloer richting de Target Ball.\n\nGeluid tijdens de worp:\n• De Striker Ball maakt een specifiek, laag-frequent rolgeluid ('gronsh')\n• De pitch (toonhoogte) van dit rolgeluid stijgt lineair mee met de snelheid van de bal\n\nDit geeft de speler directe auditieve feedback over de kracht en snelheid van zijn worp.",
+      "audio": {
+        "label": "Bewegingsgeluid – Striker Ball in actie",
+        "src": "/audio/echo_strike/striker-roll.mp3",
+        "transcript": "Het rollende geluid van de Striker Ball. Je hoort de toonhoogte stijgen naarmate de bal harder over de vloer rolt."
+      }
+    },
+    "rechter": {
+      "type": "image",
+      "src": "/images/echo_kegelen/the_strike.png",
+      "paletKleur": "blauw",
+      "afbeelding": {
+        "categorie": "samenwerking",
+        "alt": "De speler rolt de blauwe Striker Ball onderhands over de grond. Bewegingsstrepen en motion blur tonen de snelheid van de bal richting het midden.",
+        "onderschrift": "3. THE STRIKE — De verzwaarde Striker Ball wordt onderhands richting het baken gerold."
+      }
+    }
+  },
+  {
+    "id": "es-spread-4",
+    "linker": {
+      "type": "image",
+      "src": "/images/echo_kegelen/frequency_shift.png",
+      "paletKleur": "blauw",
+      "afbeelding": {
+        "categorie": "geluid",
+        "alt": "De rollende Striker Ball nadert de Target Ball in het midden. De geluidsgolven rondom de Target Ball worden visueel dichter en veranderen van kleur om de hogere frequentie aan te geven.",
+        "onderschrift": "4. FREQUENCY SHIFT — De ping-frequentie versnelt naarmate de Striker Ball dichterbij komt."
+      }
+    },
+    "rechter": {
+      "type": "combination",
+      "titel": "Dynamische Afstandsindicatie",
+      "inhoud": "Zodra de Striker Ball de Target Ball nadert, reageert het systeem dynamisch om diepte-inzicht te geven.\n\n• De ping-frequentie van de Target Ball versnelt (vergelijkbaar met een parkeersensor)\n• Dit creëert een gevoel van urgentie en helpt de speler de nadering live te 'volgen'\n\nOm Audio Masking te voorkomen, gebruikt de Target hoge tonen (makkelijk te lokaliseren) en de Striker lage tonen (gevoel van massa).",
+      "audio": {
+        "label": "Afstandsindicatie – Versnellende sonar",
+        "src": "/audio/echo_strike/proximity-ping.mp3",
+        "transcript": "Het geluid van de Target Ball dat in frequentie versnelt naarmate de rollende bal dichterbij komt, wat de nadering hoorbaar maakt."
+      }
+    }
+  },
+  {
+    "id": "es-spread-5",
+    "linker": {
+      "type": "combination",
+      "titel": "De Impact",
+      "inhoud": "Bij een succesvolle, directe hit botsen de twee ballen tegen elkaar.\n\nHet systeem activeert direct de impact-triggers:\n① Een helder, metaalachtig 'Kling'- of 'CLANG'-geluid klinkt direct over de speakers of de bal zelf\n② Dit explosieve geluid bevestigt de voltreffer onmiddellijk voor de speler en het publiek\n\nAls de bal de target mist, blijft de Target Ball simpelweg doorspelen op zijn rustige basistempo.",
+      "audio": {
+        "label": "Impactgeluid – Directe hit",
+        "src": "/audio/echo_strike/strike-impact.mp3",
+        "transcript": "Het heldere, luide metaalachtige CLANG-geluid dat klinkt op de exacte seconde dat de Striker Ball de Target Ball raakt."
+      }
+    },
+    "rechter": {
+      "type": "image",
+      "src": "/images/echo_kegelen/impact.png",
+      "paletKleur": "rood",
+      "afbeelding": {
+        "categorie": "geluid",
+        "alt": "De blauwe Striker Ball botst hard tegen de oranje Target Ball aan. Er is een visuele explosie te zien met de tekst CLANG in grote letters.",
+        "onderschrift": "5. IMPACT — Bij een voltreffer klinkt een helder en direct metaalachtig botsingsgeluid."
+      }
+    }
+  },
+  {
+    "id": "es-spread-6",
+    "linker": {
+      "type": "image",
+      "src": "/images/echo_kegelen/feedback_score.png",
+      "paletKleur": "rood",
+      "afbeelding": {
+        "categorie": "kaart",
+        "alt": "De speler juicht met zijn vuist in de lucht. In beeld verschijnt een UI-venster met een pijl-icoon voor de 'Spearcon' en de tekst DIRECT HIT: 5 POINTS.",
+        "onderschrift": "6. FEEDBACK & SCORE — Een Spearcon meldt direct de score en de exacte eindpositie."
+      }
+    },
+    "rechter": {
+      "type": "combination",
+      "titel": "Feedback & Score (Spearcon)",
+      "inhoud": "Na elke worp krijgt de speler via een Spearcon (versnelde spraak) direct de resultaten te horen.\n\nDit zorgt voor een snelle evaluatie zonder dat het spel onnodig wordt vertraagd:\n• Directe hit → 'Direct hit: vijf punten!'\n• Afwijking → 'Misser - tien centimeter links'\n\nEen set bestaat uit 5 worpen. De speler met de kleinste gemiddelde afwijking of de meeste directe hits wint de set.",
+      "audio": {
+        "label": "Resultaat feedback – Spearcon voice",
+        "src": "/audio/echo_strike/spearcon-miss.mp3",
+        "transcript": "Een voorbeeld van de versnelde Spearcon-spraak: 'Misser, twintig centimeter te kort, vijf graden rechts'."
+      }
+    }
+  },
+  {
+    "id": "es-spread-7",
+    "linker": {
+      "type": "text",
+      "titel": "Technische Realisatie",
+      "subtitel": "Hardware & Sensoren",
+      "badge": "For Developers",
+      "badgeKleur": "#1a6b3c",
+      "inhoud": "Target Ball (Het Baken)\n• Microcontroller: ESP32 met actieve BLE / UWB transceiver\n• Audio: Ingebouwde mini-versterker en piezo-speaker voor de hoge frequenties (lokalisatie)\n• Behuizing: Schokbestendig polycarbonaat om de elektronica te beschermen tegen impacts\n\nStriker Ball (De Werpbal)\n• Sensoren: IMU (Inertial Measurement Unit) meet de rotatie, versnelling en snelheid van de rol\n• Kern: Verzwaard middelpunt voor een stabiele, rechte rolbaan\n\nTactiele Tegels (Startpositie)\n• Hardware: nRF52-chip gekoppeld aan een vibratiemotor (haptische feedback) onder de rubberen mat\n• Functie: Trilt op basis van de kompasrichting (GATT-verbinding)"
+    },
+    "rechter": {
+      "type": "text",
+      "titel": "Technische Realisatie",
+      "subtitel": "Afstandsmeting & Latency",
+      "inhoud": "Ultra-Wideband (UWB) Tracking\n• De afstand tussen de Striker Ball en Target Ball wordt realtime berekend met behulp van UWB-time-of-flight, nauwkeurig tot op 1 tot 2 centimeter.\n• Alternatief: Bluetooth RSSI-mapping (signaalsterkte) voor een kosteneffectieve opstelling.\n\nLatency & Audio State Machine\n• Om desoriëntatie te voorkomen, mag de totale audio-vertraging (latency) niet meer dan 50 milliseconden bedragen.\n• De centrale applicatie draait een Web Audio API die de pitch van het rolgeluid en de herhalingsfrequentie van het baken live moduleert op basis van de binnenkomende sensor-datastroom."
+     }
+    }
+  ]
+}
