@@ -1,0 +1,99 @@
+{
+  "id": "concept-goalbal-mijnenveld",
+  "auteur": "Spelontwerpteam",
+  "titel": "Goalbal Mijnenveld",
+  "kleur": "#c45e0a",
+  "paginaPairs": [
+    {
+      "id": "gm-spread-1",
+      "linker": {
+        "type": "combination",
+        "titel": "Goalbal Mijnenveld",
+        "subtitel": "Tactisch balspel met hoorbare obstakels",
+        "badge": "Sport & Technologie",
+        "badgeKleur": "#0e4d8f",
+        "inhoud": "Goalbal Mijnenveld is een tactische en dynamische variant op het traditionele goalbal, speciaal ontworpen voor jongeren met een visuele beperking.\n\nWaar normaal gesproken alleen de bal geluid maakt, voegt dit spel een extra dimensie van spanning toe met slimme, hoorbare 'mijnen' op de middenlijn.\n\nSpelers moeten blindelings vertrouwen op hun gehoor en reflexen om de bal te blokkeren én strategisch gooien om obstakels te ontwijken. Dit stimuleert ruimtelijk inzicht, precisie en teamwork.\n\nLeeftijd: 10–18 jaar\nGroepsgrootte: 4–6 spelers (2 teams)\nDuur: 20–40 minuten",
+        "audio": {
+          "label": "Baken-geluid – Actieve mijnen op de middenlijn",
+          "src": "/audio/goalbal_mijnenveld/goalbal_mijn.wav",
+          "transcript": "Dit is de zachte, constante hoge piep of tik die de beacons op de middenlijn uitzenden. Dit subtiele baken-geluid helpt spelers om de exacte locaties van de mijnen te bepalen."
+        }
+      },
+      "rechter": {
+        "type": "image",
+        "src": "/images/goalbal_mijnenveld/opstelling.png",
+        "paletKleur": "oranje",
+        "afbeelding": {
+          "categorie": "samenwerking",
+          "alt": "Opstelling van het veld voor Goalbal Mijnenveld. Een rechthoekig veld met aan weerszijden een goal over de breedte van de achterlijn. Teams staan in hun eigen zone en op de middenlijn liggen drie fysieke beacons.",
+          "onderschrift": "1. OPSTELLING — Rechthoekig veld met voelbare lijnen, goals over de achterlijnen en drie hoorbare mijnen op de middenlijn."
+        }
+      }
+    },
+    {
+      "id": "gm-spread-2",
+      "linker": {
+        "type": "image",
+        "src": "/images/goalbal_mijnenveld/blokkeren.png",
+        "paletKleur": "oranje",
+        "afbeelding": {
+          "categorie": "geluid",
+          "alt": "Twee geblindeerde spelers werpen zich gelijktijdig op hun zij om een menselijke muur te vormen op de vloer, luisterend naar de bal die eraan komt.",
+          "onderschrift": "2. BLOKKEREN — Verdedigers traceren de bal op het gehoor en vormen een defensie-block op hun zij."
+        }
+      },
+      "rechter": {
+        "type": "combination",
+        "titel": "Het Basisspel & Blokkeren",
+        "inhoud": "Het doel van het spel is om de bal over de grond in het doel van de tegenpartij te rollen. Alle spelers dragen een black-out bril voor gelijke kansen en luisteren naar het rollende geluid van de rammelbal.\n\nWanneer de tegenpartij werpt, komt het aan op gehoor en reflexen. De verdedigers proberen de bal te traceren en werpen zich in een gecoördineerde beweging op hun zij.\n\nDoor zich zo lang mogelijk te maken, vormen ze een menselijke muur om de bal te stoppen voor de doellijn.",
+        "audio": {
+          "label": "Bewegingsgeluid – Rollende bal",
+          "src": "/audio/goalbal_mijnenveld/goalbal_rollen.mp3",
+          "transcript": "Het rollende, rammelende geluid van de slimme goalbal die over de vloer naar de overkant snelt, duidelijk te onderscheiden van de beacons."
+        }
+      }
+    },
+    {
+      "id": "gm-spread-3",
+      "linker": {
+        "type": "combination",
+        "titel": "Mijn Ontploffing",
+        "inhoud": "Als een speler de bal richting de overkant rolt en deze raakt per ongeluk een van de beacons op de middenlijn, volgt er direct een hoorbaar explosiegeluid. De bal is 'ontploft'.\n\nHet team dat de bal gooide krijgt direct een strafpunt voor deze tactische fout.\n\nNa de ontploffing legt de scheidsrechter de beacon direct op een andere plek op de horizontale middenlijn. Hierdoor verandert het mijnenveld continu en moeten spelers constant opnieuw luisteren waar de veilige doorgangen zijn.",
+        "audio": {
+          "label": "Explosiegeluid – Bal raakt beacon",
+          "src": "/audio/goalbal_mijnenveld/ontploffing.wav",
+          "transcript": "Een luid, herkenbaar explosiegeluid dat door de slimme bal wordt afgespeeld op het moment dat deze fysiek in contact komt met een baken."
+        }
+      },
+      "rechter": {
+        "type": "image",
+        "src": "/images/goalbal_mijnenveld/ontploffing.png",
+        "paletKleur": "oranje",
+        "afbeelding": {
+          "categorie": "geluid",
+          "alt": "De slimme goalbal botst tegen een van de fysieke beacons op de middenlijn, met visuele geluidsgolven die een luide explosie symboliseren. De scheidsrechter staat klaar om de beacon te verplaatsen.",
+          "onderschrift": "3. MIJN ONTPLOFFING — Bij contact met een beacon ontploft de bal direct. Het werpende team krijgt een strafpunt en de mijn wordt verplaatst."
+        }
+      }
+    },
+    {
+      "id": "gm-spread-4",
+      "linker": {
+        "type": "image",
+        "src": "/images/goalbal_mijnenveld/scoren.png",
+        "paletKleur": "oranje",
+        "afbeelding": {
+          "categorie": "samenwerking",
+          "alt": "De rammelbal rolt perfect tussen twee beacons door, passeert de graaiende handen van de verdedigers en raakt het net van het doel, gevolgd door een digitaal doelsignaal.",
+          "onderschrift": "4. SCOREN — Een succesvol doelpunt door de bal vakkundig langs de verdedigers én tussen de mijnen door te rollen."
+        }
+      },
+      "rechter": {
+        "type": "combination",
+        "titel": "Scoren & Tactiek",
+        "inhoud": "Een doelpunt wordt gescoord wanneer het aanvallende team de bal vakkundig langs de verdedigers én tussen de actieve mijnen door weet te rollen, totdat deze volledig de doellijn passeert.\n\nZodra de bal de achterlijn raakt, klinkt het doelsignaal en krijgt het aanvallende team een punt. De opstelling wordt hierna gereset voor de volgende ronde.\n\nToegankelijkheidstip:\nDoor het contrast tussen de hoge tonen van de mijnen en de rammelende bal, maken spelers via hun gehoor een 3D-plattegrond in hun hoofd van de veilige zones."
+        }
+      }
+
+  ]
+}
