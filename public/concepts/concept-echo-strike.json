@@ -46,10 +46,10 @@
     "rechter": {
       "type": "combination",
       "titel": "De Kalibratiefase",
-      "inhoud": "Voordat de worp plaatsvindt, staat de speler stil op de tactiele starttegel om te kalibreren.\n\nDoor het hoofd rustig te draaien, gebruikt de speler zijn ruimtelijk gehoor om de exacte vector en afstand van de Target Ball te bepalen.\n\nDe starttegel kan via ingebouwde sensoren optionele haptische feedback (zachte trilling) geven wanneer de speler met zijn lichaam exact in de juiste richting staat uitgelijnd.",
+      "inhoud": "Voordat de worp plaatsvindt, staat de speler stil op de tactiele starttegel om te kalibreren.\n\nDoor het hoofd rustig te draaien, gebruikt de speler zijn ruimtelijk gehoor om de exacte vector en afstand van de Target Ball te bepalen.",
       "audio": {
         "label": "Kalibratietoon – Richtingassistentie",
-        "src": "/audio/echo_strike/calibration-bloop.mp3",
+        "src": "/audio/echo_strike/sonar-ping.mp3",
         "transcript": "Een subtiele verandering in de toonhoogte of een haptische puls die bevestigt dat de speler recht naar het baken is gekeerd."
       }
     }
@@ -141,7 +141,7 @@
       "inhoud": "Na elke worp krijgt de speler via een Spearcon (versnelde spraak) direct de resultaten te horen.\n\nDit zorgt voor een snelle evaluatie zonder dat het spel onnodig wordt vertraagd:\n• Directe hit → 'Direct hit: vijf punten!'\n• Afwijking → 'Misser - tien centimeter links'\n\nEen set bestaat uit 5 worpen. De speler met de kleinste gemiddelde afwijking of de meeste directe hits wint de set.",
       "audio": {
         "label": "Resultaat feedback – Spearcon voice",
-        "src": "/audio/echo_strike/spearcon-miss.mp3",
+        "src": "/audio/echo_strike/error-buzzer.mp3",
         "transcript": "Een voorbeeld van de versnelde Spearcon-spraak: 'Misser, twintig centimeter te kort, vijf graden rechts'."
       }
     }
