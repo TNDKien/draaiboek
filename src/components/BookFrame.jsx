@@ -19,86 +19,6 @@ const pageVariants = {
 
 const pageTransition = { duration: 0.42, ease: [0.25, 0.46, 0.45, 0.94] }
 
-function CornerFold({ side }) {
-  const isRight = side === 'right'
-  return (
-    <div
-      className="absolute bottom-0 pointer-events-none transition-all duration-200"
-      style={{ [isRight ? 'right' : 'left']: 0 }}
-    >
-      {/* Shadow triangle beneath fold */}
-      <div
-        style={{
-          width: 0,
-          height: 0,
-          borderStyle: 'solid',
-          borderWidth: isRight ? '0 0 52px 52px' : '52px 0 0 52px',
-          borderColor: isRight
-            ? 'transparent transparent rgba(0,0,0,0.12) transparent'
-            : 'rgba(0,0,0,0.12) transparent transparent transparent',
-        }}
-      />
-      {/* Paper fold triangle */}
-      <div
-        className="absolute bottom-0"
-        style={{
-          [isRight ? 'right' : 'left']: 0,
-          width: 0,
-          height: 0,
-          borderStyle: 'solid',
-          borderWidth: isRight ? '0 0 46px 46px' : '46px 0 0 46px',
-          borderColor: isRight
-            ? 'transparent transparent #ddd5c4 transparent'
-            : '#ddd5c4 transparent transparent transparent',
-        }}
-      />
-    </div>
-  )
-}
-
-function PageNavZone({ side, canNav, onNav, label }) {
-  const isRight = side === 'right'
-  return canNav ? (
-    <button
-      onClick={onNav}
-      aria-label={label}
-      className="group absolute inset-y-0 z-10"
-      style={{
-        [isRight ? 'right' : 'left']: 0,
-        width: '28%',
-        cursor: isRight ? 'e-resize' : 'w-resize',
-        background: 'transparent',
-      }}
-    >
-      {/* Hover glow on outer edge */}
-      <div
-        className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-250 pointer-events-none"
-        style={{
-          background: isRight
-            ? 'linear-gradient(to left, rgba(200,184,154,0.18), transparent 80%)'
-            : 'linear-gradient(to right, rgba(200,184,154,0.18), transparent 80%)',
-        }}
-      />
-
-      {/* Arrow chevron */}
-      <div
-        className={`absolute top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-all duration-200
-          ${isRight ? 'right-3 translate-x-1 group-hover:translate-x-0' : 'left-3 -translate-x-1 group-hover:translate-x-0'}`}
-      >
-        {isRight
-          ? <ChevronRight size={26} className="text-ink/35" />
-          : <ChevronLeft size={26} className="text-ink/35" />
-        }
-      </div>
-
-      {/* Corner fold hint — appears on hover */}
-      <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-        <CornerFold side={side} />
-      </div>
-    </button>
-  ) : null
-}
-
 export default function BookFrame({
   spread,
   spreadIndex,
@@ -113,6 +33,41 @@ export default function BookFrame({
 }) {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-4 py-6 select-none">
+
+      {/* Fixed side navigation — outside the book so pages remain fully interactive */}
+      {canGoPrev && (
+        <button
+          onClick={onPrev}
+          aria-label="Vorige pagina"
+          className="group fixed left-0 top-1/2 -translate-y-1/2 z-20 flex items-center justify-center
+                     h-32 w-10 rounded-r-xl
+                     bg-paper/5 hover:bg-paper/15 border-r border-t border-b border-paper/10
+                     hover:border-paper/25 transition-all duration-200 backdrop-blur-sm"
+        >
+          <ChevronLeft
+            size={20}
+            className="text-paper/40 group-hover:text-paper/80 transition-colors duration-200
+                       -translate-x-0.5 group-hover:translate-x-0 transition-transform"
+          />
+        </button>
+      )}
+
+      {canGoNext && (
+        <button
+          onClick={onNext}
+          aria-label="Volgende pagina"
+          className="group fixed right-0 top-1/2 -translate-y-1/2 z-20 flex items-center justify-center
+                     h-32 w-10 rounded-l-xl
+                     bg-paper/5 hover:bg-paper/15 border-l border-t border-b border-paper/10
+                     hover:border-paper/25 transition-all duration-200 backdrop-blur-sm"
+        >
+          <ChevronRight
+            size={20}
+            className="text-paper/40 group-hover:text-paper/80 transition-colors duration-200
+                       translate-x-0.5 group-hover:translate-x-0 transition-transform"
+          />
+        </button>
+      )}
 
       {/* Chapter header */}
       <div className="mb-3 text-center" aria-live="polite" aria-atomic="true">
@@ -179,8 +134,6 @@ export default function BookFrame({
                 <Page data={spread?.linker} side="left" />
               </motion.div>
             </AnimatePresence>
-
-            <PageNavZone side="left" canNav={canGoPrev} onNav={onPrev} label="Vorige spread" />
           </div>
 
           {/* Spine */}
@@ -221,8 +174,6 @@ export default function BookFrame({
                 <Page data={spread?.rechter} side="right" />
               </motion.div>
             </AnimatePresence>
-
-            <PageNavZone side="right" canNav={canGoNext} onNav={onNext} label="Volgende spread" />
           </div>
         </div>
       </div>
