@@ -16,7 +16,7 @@
         "audio": {
           "label": "Beluister het countdown geluid",
           "src": "/audio/timerbal/countdown.wav",
-          "transcript": "Dit is het aftel geluid van de timer van de VisioBal. De bal maakt een "beep" geluid dat steeds sneller gaat naarmate de timer aftelt. Na 25 seconden klinkt er een ontploffingsgeluid, dat betekent dat de timer van degene die de bal vastheeft op 0 staat en die speler het spel wint."
+          "transcript": "Dit is het aftel geluid van de timer van de VisioBal. De bal maakt een \"beep\" geluid dat steeds sneller gaat naarmate de timer aftelt. Na 25 seconden klinkt er een ontploffingsgeluid, dat betekent dat de timer van degene die de bal vastheeft op 0 staat en die speler het spel wint."
         }
       },
       "rechter": {
@@ -56,7 +56,7 @@
         "paletKleur": "blauw",
         "afbeelding": {
           "categorie": "geluid",
-          "alt": "De timer van een speler loopt af naar 0. De "beep" geluiden worden steeds sneller weergegeven als golven rondom de bal.",
+          "alt": "De timer van een speler loopt af naar 0. De \"beep\" geluiden worden steeds sneller weergegeven als golven rondom de bal.",
           "onderschrift": "Timer loopt af en de beep versnelt totdat de timer 0 bereikt"
         }
       },
