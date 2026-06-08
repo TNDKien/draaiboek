@@ -12,7 +12,7 @@
         "subtitel": "Beacon Battle voor blinde kinderen",
         "badge": "Sport & Technologie",
         "badgeKleur": "#0e4d8f",
-        "inhoud": "Elke speler verdedigt een vloot van Zones gemarkeerd door fysieke Beacons. De Visioball is de energiebron — zodra de bal in de buurt van een Beacon komt, begint deze te laden.\n\nSpelers gebruiken de Goalball-techniek om de bal te blokkeren en hun Beacons te beschermen. Bij 100% lading valt een Beacon uit. Het team met de laatste actieve Beacons wint.\nVoor een visuele simulatie kun je op de volgende link klikken:\nhttps://beacon-charge-arena.lovable.app\nLeeftijd: 10–18 jaar\nGroepsgrootte: 4–6 spelers (2 teams)\nDuur: 20–40 minuten",
+        "inhoud": "Elke speler verdedigt een vloot van Zones gemarkeerd door fysieke Beacons. De Visioball is de energiebron — zodra de bal in de buurt van een Beacon komt, begint deze te laden.\n\nSpelers gebruiken de Goalball-techniek om de bal te blokkeren en hun Beacons te beschermen. Bij 100% lading valt een Beacon uit. Het team met de laatste actieve Beacons wint.\nVoor een visuele simulatie kun je op de volgende link klikken:\n https://beacon-charge-arena.lovable.app \nLeeftijd: 10–18 jaar\nGroepsgrootte: 4–6 spelers (2 teams)\nDuur: 20–40 minuten",
         "audio": {
           "label": "Lokalisatiegeluid – bal bij stilstand",
           "src": "/audio/zone_overload/sonar-ping.mp3",

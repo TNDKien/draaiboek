@@ -1,5 +1,5 @@
-import AudioPlayer from './AudioPlayer'
-import MockupImage from './MockupImage'
+import AudioPlayer from "./AudioPlayer";
+import MockupImage from "./MockupImage";
 
 function Badge({ label, kleur }) {
   return (
@@ -10,46 +10,70 @@ function Badge({ label, kleur }) {
     >
       {label}
     </span>
-  )
+  );
 }
 
 function FormattedText({ text }) {
+  // Simple linkifier: turns http(s) URLs into clickable anchors.
+  // Keeps other text as-is and preserves paragraph spacing.
+  const urlRegex = /https?:\/\/[\S]+/;
+
   return (
     <div className="space-y-3">
-      {text.split('\n\n').map((para, i) => (
+      {text.split("\n\n").map((para, i) => (
         <p key={i} className="text-sm leading-relaxed whitespace-pre-line">
-          {para}
+          {para.split(/(https?:\/\/[\S]+)/).map((chunk, j) =>
+            urlRegex.test(chunk) ? (
+              <a
+                key={j}
+                href={chunk}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline"
+              >
+                {chunk}
+              </a>
+            ) : (
+              chunk
+            ),
+          )}
         </p>
       ))}
     </div>
-  )
+  );
 }
 
 export default function Page({ data, side }) {
-  if (!data) return null
+  if (!data) return null;
 
-  const isLeft = side === 'left'
-  const gradientClass = isLeft ? 'page-left' : 'page-right'
-  const isImageOnly = data.type === 'image'
+  const isLeft = side === "left";
+  const gradientClass = isLeft ? "page-left" : "page-right";
+  const isImageOnly = data.type === "image";
 
   return (
     <article
       className={`relative h-full paper-texture ${gradientClass} overflow-hidden`}
-      aria-label={`${isLeft ? 'Linker' : 'Rechter'} pagina: ${data.titel || data.afbeelding?.alt || ''}`}
+      aria-label={`${isLeft ? "Linker" : "Rechter"} pagina: ${data.titel || data.afbeelding?.alt || ""}`}
     >
       {isImageOnly ? (
         /* Image page — 16:9 image + optional text below */
         <div className="h-full overflow-y-auto page-content flex flex-col">
           {/* 16:9 image container — always shows full image */}
-          <div className="w-full flex-shrink-0 bg-black/5" style={{ aspectRatio: '16/9' }}>
+          <div
+            className="w-full flex-shrink-0 bg-black/5"
+            style={{ aspectRatio: "16/9" }}
+          >
             {data.src ? (
               <img
                 src={data.src}
-                alt={data.afbeelding?.alt || ''}
+                alt={data.afbeelding?.alt || ""}
                 className="w-full h-full object-contain"
               />
             ) : (
-              <MockupImage afbeelding={data.afbeelding || {}} kleur={data.paletKleur || 'bruin'} />
+              <MockupImage
+                afbeelding={data.afbeelding || {}}
+                kleur={data.paletKleur || "bruin"}
+              />
             )}
           </div>
 
@@ -77,8 +101,9 @@ export default function Page({ data, side }) {
       ) : (
         /* Text / combination page */
         <div className="h-full overflow-y-auto page-content px-10 py-9">
-
-          {data.badge && <Badge label={data.badge} kleur={data.badgeKleur || '#4a3728'} />}
+          {data.badge && (
+            <Badge label={data.badge} kleur={data.badgeKleur || "#4a3728"} />
+          )}
 
           {data.titel && (
             <h2 className="font-serif text-2xl font-bold text-ink mb-1 leading-tight">
@@ -108,8 +133,15 @@ export default function Page({ data, side }) {
 
           {/* Inline image (for combination pages with an image block) */}
           {data.afbeelding && (
-            <div className="mt-5 rounded-lg overflow-hidden" style={{ height: '220px' }}>
-              <MockupImage afbeelding={data.afbeelding} kleur={data.paletKleur || 'bruin'} src={data.src} />
+            <div
+              className="mt-5 rounded-lg overflow-hidden"
+              style={{ height: "220px" }}
+            >
+              <MockupImage
+                afbeelding={data.afbeelding}
+                kleur={data.paletKleur || "bruin"}
+                src={data.src}
+              />
             </div>
           )}
 
@@ -121,11 +153,11 @@ export default function Page({ data, side }) {
       <div
         className={`absolute inset-y-0 w-6 pointer-events-none ${
           isLeft
-            ? 'right-0 bg-gradient-to-r from-transparent to-black/5'
-            : 'left-0 bg-gradient-to-l from-transparent to-black/5'
+            ? "right-0 bg-gradient-to-r from-transparent to-black/5"
+            : "left-0 bg-gradient-to-l from-transparent to-black/5"
         }`}
         aria-hidden="true"
       />
     </article>
-  )
+  );
 }
