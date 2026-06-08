@@ -3,6 +3,7 @@
   "concepten": [
     "concept-zone-overload.json",
     "concept-echo-strike.json",
-    "concept-goalbal-mijnenveld.json"
+    "concept-goalbal-mijnenveld.json",
+    "concept-timerbal.json"
   ]
 }
