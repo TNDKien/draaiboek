@@ -1,0 +1,95 @@
+{
+  "id": "concept-esmeejongenelen",
+  "auteur": "Esmée Jongenelen",
+  "titel": "Timer Bal",
+  "kleur": "#1a5276",
+  "paginaPairs": [
+    {
+      "id": "esmeejongenelen-spread-1",
+      "linker": {
+        "type": "combination",
+        "titel": "Timer Bal",
+        "subtitel": "Concept X van 5",
+        "badge": "Sport & Technologie",
+        "badgeKleur": "#1a5276",
+        "inhoud": "TimerBal is een balspel waarbij elke speler de bal zo lang mogelijk vast dient te houden, totdat zijn of haar persoonlijke timer afloopt, terwijl de overige spelers de bal af proberen te pakken om hun timer af te laten lopen en zo het spel te winnen.\n\nLeeftijd: 4 – 18 jaar\nGroepsgrootte: 2–6 kinderen\nDuur: 25 seconden - 3 minuten",
+        "audio": {
+          "label": "Beluister het countdown geluid",
+          "src": "/audio/timerbal/countdown.wav",
+          "transcript": "Dit is het aftel geluid van de timer van de VisioBal. De bal maakt een "beep" geluid dat steeds sneller gaat naarmate de timer aftelt. Na 25 seconden klinkt er een ontploffingsgeluid, dat betekent dat de timer van degene die de bal vastheeft op 0 staat en die speler het spel wint."
+        }
+      },
+      "rechter": {
+        "type": "image",
+        "src": "/images/timerbal/uitleg_timerbal_1.png",
+        "paletKleur": "blauw",
+        "afbeelding": {
+          "categorie": "samenwerking",
+          "alt": "Speler A pakt de VisioBal vast met twee handen. De bal maakt een timergeluid. Boven de bal is een countdown te zien: ...10...9...8... Twee andere spelers staan op de achtergrond en proberen dichterbij te komen.",
+          "onderschrift": "Speler A pakt de bal → de persoonlijke timer van 25 seconden begint af te tellen"
+        }
+      }
+    },
+    {
+      "id": "esmeejongenelen-spread-2",
+      "linker": {
+        "type": "image",
+        "src": "/images/timerbal/uitleg_timerbal_2.png",
+        "paletKleur": "blauw",
+        "afbeelding": {
+          "categorie": "samenwerking",
+          "alt": "Speler B pakt de bal af van Speler A. De timer van Speler A stopt. Boven Speler B verschijnt een nieuwe countdown: ...7...6...5... Speler A staat er verbaasd bij.",
+          "onderschrift": "Speler B pakt de bal af → timer van speler A stopt, de timer van speler B begint"
+        }
+      },
+      "rechter": {
+        "type": "text",
+        "titel": "Spelregels",
+        "inhoud": "Elke speler draagt een polsbandje dat via Bluetooth gekoppeld is aan de VisioBal. Ieder polsbandje heeft een unieke speler-ID, waardoor de software weet wie de bal vasthoudt en wiens timer dient af te lopen.\n\n1. Elke speler krijgt een persoonlijke timer van 25 seconden.\n2. Zolang de speler de bal vasthoudt, telt diens timer af.\n3. De andere spelers proberen de bal af te pakken vóórdat de timer afloopt.\n4. Als een andere speler de bal bemachtigt, gaat zijn timer lopen en stopt de timer van de vorige speler.\n5. Wanneer een speler de bal (na eerder vasthouden) terugpakt, gaat diens timer verder vanaf waar die gebleven was.\n6. Een speler wint zodra diens timer de 0 bereikt terwijl diegene de bal vasthoudt."
+      }
+    },
+    {
+      "id": "esmeejongenelen-spread-3",
+      "linker": {
+        "type": "image",
+        "src": "/images/timerbal/uitleg_timerbal_3.png",
+        "paletKleur": "blauw",
+        "afbeelding": {
+          "categorie": "geluid",
+          "alt": "De timer van een speler loopt af naar 0. De "beep" geluiden worden steeds sneller weergegeven als golven rondom de bal.",
+          "onderschrift": "Timer loopt af en de beep versnelt totdat de timer 0 bereikt"
+        }
+      },
+      "rechter": {
+        "type": "text",
+        "titel": "Materialen & Spelverloop",
+        "inhoud": "Wat heb je nodig:\n\n• De VisioBal\n• 1 polsbandje per speler (met een uniek ID)\n\nVoorbeeld spelverloop:\n\nTijd        | Gebeurtenis                  | Balhouder | Timers\n13:00:00 | Het spel start                 | Niemand    | —\n13:00:02 | Speler A pakt de bal        | Speler A    | A: 25s → telt af\n13:00:07 | Speler B pakt de bal af   | Speler B    | A: 20s | B: 25s → telt af\n13:00:15 | Speler C pakt de bal af   | Speler C    | A: 20s | B: 17s | C: 25s → telt af\n13:00:18 | Speler B pakt de bal terug | Speler B  | A: 20s | B: 17s → hervat | C: 22s\n13:00:22 | Speler B wint!                 | Speler B    | B: timer bereikt 0s"
+      }
+    },
+    {
+      "id": "esmeejongenelen-spread-4",
+      "linker": {
+        "type": "combination",
+        "titel": "Geluiden & Techniek",
+        "badge": "VisioBal Functionaliteiten",
+        "badgeKleur": "#1a5276",
+        "inhoud": "De VisioBal communiceert het hele spel via geluid:\n\n• Countdown geluid → beep versnelt naarmate de timer vordert; na 25 seconden klinkt een ontploffingsgeluid\n• Dropped bal geluid → klinkt wanneer de bal op de grond valt en stilligt, zodat spelers de bal kunnen lokaliseren\n• Bluetooth verbinding → bal herkent via polsbandje welke speler de bal vasthoudt\n• Volume instelbaar via de app (max. 85 dB) voor gebruik binnen en buiten",
+        "audio": {
+          "label": "Beluister het geluid van de bal die gevallen is",
+          "src": "/audio/timerbal/droppedbal.wav",
+          "transcript": "Dit is het geluid dat de VisioBal maakt wanneer de bal op de grond valt en stilligt. Het geluid helpt spelers de bal te lokaliseren zonder dat ze hoeven te zoeken."
+        }
+      },
+      "rechter": {
+        "type": "image",
+        "src": "/images/timerbal/uitleg_timerbal_4.png",
+        "paletKleur": "blauw",
+        "afbeelding": {
+          "categorie": "geluid",
+          "alt": "De VisioBal maakt een ontploffingsgeluid nadat de timer op 0 staat. Geluidsgolven stralen rondom de bal uit.",
+          "onderschrift": "Ontploffingsgeluid. Het geluid duidt op het einde van het spel. De speler die de bal vastheeft, heeft gewonnen."
+        }
+      }
+    }
+  ]
+}
