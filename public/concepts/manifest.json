@@ -2,6 +2,8 @@
   "_uitleg": "Voeg hier je bestandsnaam toe om je concept zichtbaar te maken in het draaiboek.",
   "concepten": [
     "concept-zone-overload.json",
-    "concept-echo-strike.json"
+    "concept-echo-strike.json",
+    "concept-goalbal-mijnenveld.json",
+    "concept-timerbal.json"
   ]
 }
