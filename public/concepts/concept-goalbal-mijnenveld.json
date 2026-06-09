@@ -91,7 +91,7 @@
       "rechter": {
         "type": "combination",
         "titel": "Scoren & Tactiek",
-        "inhoud": "Een doelpunt wordt gescoord wanneer het aanvallende team de bal vakkundig langs de verdedigers én tussen de actieve mijnen door weet te rollen, totdat deze volledig de doellijn passeert.\n\nZodra de bal de achterlijn raakt, klinkt het doelsignaal en krijgt het aanvallende team een punt. De opstelling wordt hierna gereset voor de volgende ronde.\n\nToegankelijkheidstip:\nDoor het contrast tussen de hoge tonen van de mijnen en de rammelende bal, maken spelers via hun gehoor een 3D-plattegrond in hun hoofd van de veilige zones."
+        "inhoud": "Een doelpunt wordt gescoord wanneer het aanvallende team de bal vakkundig langs de verdedigers én tussen de actieve mijnen door weet te rollen, totdat deze volledig de doellijn passeert.\n\nZodra de bal de achterlijn raakt, klinkt het doelsignaal en krijgt het aanvallende team een punt. De opstelling wordt hierna gereset voor de volgende ronde.\n\nToegankelijkheidstip:\nDoor het contrast tussen de hoge tonen van de mijnen en de visiobal, maken spelers via hun gehoor een 3D-plattegrond in hun hoofd van de veilige zones."
         }
       },
           {
@@ -108,7 +108,7 @@
         "type": "text",
         "titel": "Technische Realisatie",
         "subtitel": "Software & Spellogica",
-        "inhoud": "Game State Machine\nIDLE → PLAYING → MINE_EXPLOSION → GAME_OVER\n\n pt alle BLE-advertenties)\n\nGeluid triggers (app-side)\n• Rolgeluid pitch: map(imu_acceleration, 0, 10, 220, 880) Hz\n• Identificatiegeluid: uniek per Beacon-ID (Major waarde)\n\nAanbevolen stack\n• App: React Native + expo-ble-plx (BLE) + expo-av (audio)\n• Alternatief web: Web Bluetooth API + Web Audio API\n• Balcode: Arduino IDE op ESP32, library: BLE2902\n• Communicatie bal → app: BLE Notify op custom GATT characteristic"
+        "inhoud": "Game State Machine\nIDLE → PLAYING → MINE_EXPLOSION → GAME_OVER\n\n Geluid triggers (app-side)\n• Rolgeluid pitch: map(imu_acceleration, 0, 10, 220, 880) Hz\n• Identificatiegeluid: uniek per Beacon-ID (Major waarde)\n\nAanbevolen stack\n• App: React Native + expo-ble-plx (BLE) + expo-av (audio)\n• Alternatief web: Web Bluetooth API + Web Audio API\n• Balcode: Arduino IDE op ESP32, library: BLE2902\n• Communicatie bal → app: BLE Notify op custom GATT characteristic"
       }
     }
 
