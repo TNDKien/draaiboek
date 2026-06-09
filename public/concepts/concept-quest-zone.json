@@ -58,7 +58,7 @@
       "linker": {
         "type": "combination",
         "titel": "Oriëntatie door Geluid",
-        "inhoud": "Quest Zone is vooral bedoeld als oefenspel voor geluidsoriëntatie. Tijdens de feedback gaf de trainer aan dat dit idee goed aansluit bij hoe kinderen vaak beginnen: eerst leren luisteren, bewegen en de ruimte herkennen.\n\nDe spelers oefenen met:\n• herkennen waar de bal is\n• richting bepalen op gehoor\n• rustig bewegen in een afgebakend veld\n• samenwerken en communiceren\n• vertrouwen op auditieve informatie\n\nDe basisversie gebruikt het geluid van de Visiobal. Als uitbreiding kunnen zones later een eigen omgevingsgeluid krijgen.",
+        "inhoud": "Quest Zone is vooral bedoeld als oefenspel voor geluidsoriëntatie. Tijdens de feedback gaf de trainer aan dat dit idee goed aansluit bij hoe kinderen vaak beginnen: eerst leren luisteren, bewegen en de ruimte herkennen.\n\nDe spelers oefenen met:\n• herkennen waar de bal is\n• richting bepalen op gehoor\n• rustig bewegen in een afgebakend veld\n• samenwerken en communiceren\n• vertrouwen op auditieve informatie\n\nDe basisversie gebruikt het geluid van de Visiobal. De basisversie gebruikt het geluid van de Visiobal. Daarnaast hebben de verschillende zones een eigen omgevingsgeluid, zoals vogels in het bos of stromend water bij de rivier. Hierdoor leren spelers niet alleen de bal herkennen, maar ook de omgeving waarin zij zich bevinden.",
         "audio": {
           "label": "Omgevingsgeluid – Rivierzone",
           "src": "/audio/quest_zone/river_beacon.mp3",
