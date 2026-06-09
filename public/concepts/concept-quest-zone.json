@@ -98,13 +98,12 @@
           "transcript": "Bij de groepsversie spelen kinderen in duo's. Eén of twee duo's zijn actief in het veld en de andere kinderen wachten rustig in de wachtzone. Zo blijft het spel overzichtelijk, veilig en geschikt voor een grotere groep."
         }
       }
-    },
-        {
+    },    {
       "id": "qz-spread-5",
       "linker": {
         "type": "text",
         "titel": "Materialen & Spelverloop",
-        "inhoud": "Wat heb je nodig:\n\n• 1 Visiobal\n• Gymzaal, sporthal of andere veilige open ruimte\n• Fysieke zones, bijvoorbeeld matten, pionnen of voelbare lijnen\n• Zonekaarten of symbolen voor bos, rivier, grot en kasteel\n• Trainer als verhalenverteller en begeleider\n• Eventueel speakers, tablet of soundboard voor extra omgevingsgeluiden\n\nSpelverloop:\n1. De trainer bakent het speelveld en de zones af.\n2. De trainer legt de veiligheidsregels uit.\n3. De trainer vertelt een korte missie.\n4. De spelers luisteren naar de Visiobal.\n5. De spelers bewegen de bal samen naar de juiste omgeving.\n6. Als de bal de juiste zone bereikt, geeft de trainer feedback.\n7. Daarna start een nieuwe missie of komt het volgende duo aan de beurt."
+        "inhoud": "Wat heb je nodig:\n\n• 1 Visiobal\n• Gymzaal, sporthal of andere veilige open ruimte\n• Fysieke zones, bijvoorbeeld matten, pionnen of voelbare lijnen\n• Zonekaarten of symbolen voor bos, rivier, grot en kasteel\n• Trainer als verhalenverteller en begeleider\n• Tablet, laptop of soundboard voor extra omgevingsgeluiden\n• Eventueel bluetooth speaker voor betere verspreiding van het geluid\n\nSpelverloop:\n1. De trainer bakent het speelveld en de zones af.\n2. De trainer legt de veiligheidsregels uit.\n3. De trainer vertelt een korte missie.\n4. De trainer activeert het bijpassende omgevingsgeluid.\n5. De spelers luisteren naar de Visiobal en de omgeving.\n6. De spelers bewegen de bal samen naar de juiste zone.\n7. Als de bal de juiste zone bereikt, activeert de trainer het succesgeluid.\n8. Daarna start een nieuwe missie of komt het volgende duo aan de beurt."
       },
       "rechter": {
         "type": "text",
@@ -117,16 +116,16 @@
       "linker": {
         "type": "text",
         "titel": "Technische Realisatie",
-        "subtitel": "MVP & Soundboard",
+        "subtitel": "Hardware & Communicatie",
         "badge": "For Developers",
         "badgeKleur": "#1a6b3c",
-        "inhoud": "Quest Zone kan als eerste proof of concept worden gerealiseerd met een eenvoudige webapp of soundboard voor de trainer.\n\nBenodigdheden:\n• Visiobal\n• Tablet of laptop\n• Speakers of bluetooth speaker\n• Afgebakend speelveld\n• Quest Zone soundboard\n\nWerking:\n1. De trainer kiest een missie.\n2. Het soundboard activeert het juiste omgevingsgeluid.\n3. De spelers luisteren naar de Visiobal én de omgeving.\n4. De spelers bewegen de bal richting de juiste zone.\n5. Bij succes activeert de trainer een succesgeluid.\n\nDeze aanpak maakt het mogelijk om Quest Zone direct te testen zonder complexe hardware of sensoren."
+        "inhoud": "Visiobal\n• Centrale geluidsbron voor oriëntatie\n• Ingebouwde speaker voor het afspelen van het Visiobal-geluid\n• Helpt spelers de positie van de bal te bepalen\n\nZones\n• Elke zone heeft een eigen herkenbaar omgevingsgeluid\n• Bos → vogelgeluiden\n• Rivier → stromend water\n• Grot → echo-effect\n• Kasteel → succesgeluid\n\nTrainer Device\n• Tablet of laptop\n• Quest Zone webapp of soundboard\n• Activeert missie- en zonegeluiden\n\nAudio Output\n• Bluetooth speaker of ingebouwde speakers\n• Speelt omgevingsgeluiden af binnen het speelveld\n• Volume aanpasbaar aan binnen- of buitenlocaties"
       },
       "rechter": {
         "type": "text",
         "titel": "Technische Realisatie",
-        "subtitel": "Toekomstige Uitbreiding",
-        "inhoud": "Voor een vervolgstap kan Quest Zone uitgebreid worden met slimme zoneherkenning.\n\nMogelijke architectuur:\n• Bluetooth-beacons per zone\n• ESP32 of BLE-hardware\n• Centrale webapp op tablet\n• Omgevingsgeluiden gekoppeld aan zones\n\nWerking:\n1. Een speler nadert een zone.\n2. De beacon detecteert aanwezigheid.\n3. Het systeem activeert automatisch het juiste omgevingsgeluid.\n4. Bij het bereiken van de juiste zone speelt een succesgeluid af.\n5. De trainer ontvangt visuele feedback op het dashboard.\n\nHierdoor verschuift Quest Zone van een handmatig begeleid spel naar een semi-automatisch interactief systeem waarin techniek de oriëntatie ondersteunt."
+        "subtitel": "Software & Spellogica",
+        "inhoud": "Game State Machine\n\nIDLE → MISSION_START → ACTIVE_PLAY → SUCCESS → NEXT_MISSION\n\nMissie Flow\n\n1. Trainer kiest een missie.\n2. Het systeem activeert het bijbehorende zonegeluid.\n3. Spelers volgen de Visiobal en oriënteren zich op de omgeving.\n4. De juiste zone wordt bereikt.\n5. Het succesgeluid wordt afgespeeld.\n6. Een nieuwe missie start.\n\nToekomstige Uitbreiding\n\n• Bluetooth Low Energy beacons per zone\n• Automatische zoneherkenning\n• Dashboard voor trainers\n• Registratie van speeltijd en missies\n• Realtime feedback via audio\n\nAanbevolen Stack\n\n• Front-end: React / Next.js\n• Audio: Web Audio API\n• Soundboard: HTML Audio + JavaScript\n• Hardware uitbreiding: ESP32 + BLE Beacons"
       }
     },
     {
