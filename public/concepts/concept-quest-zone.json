@@ -1,156 +1,155 @@
 {
-"id": "concept-quest-zone-idil",
-"auteur": "Idil Geesaale",
-"titel": "Quest Zone",
-"kleur": "#1a5276",
-"paginaPairs": [
-{
-"id": "qz-spread-1",
-"linker": {
-"type": "combination",
-"titel": "Quest Zone",
-"subtitel": "Verhalend oriëntatiespel met de Visiobal",
-"badge": "Oriëntatie & Geluid",
-"badgeKleur": "#1a5276",
-"inhoud": "Quest Zone is een verhalend oriëntatiespel waarbij kinderen de Visiobal naar de juiste omgeving brengen.\n\nDe trainer vertelt een korte missie, bijvoorbeeld: 'Breng de magische bal naar het bos.' De spelers gebruiken het geluid van de Visiobal om de bal te volgen en samen naar de juiste zone te bewegen.\n\nHet spel is flexibel inzetbaar. Een gymzaal of sporthal is een geschikte voorbeeldlocatie, maar Quest Zone kan ook op een andere veilige open ruimte worden gespeeld zolang het speelveld duidelijk is afgebakend.\n\nLeeftijd: 6–12 jaar\nGroepsgrootte: 2–8 kinderen\nDuur: 10–20 minuten",
-"audio": {
-"label": "Beluister de speluitleg",
-"src": "/audio/quest_zone/mission_intro.mp3",
-"transcript": "Welkom bij Quest Zone. In dit spel vertelt de trainer een korte missie. De spelers luisteren naar het geluid van de Visiobal en brengen de bal samen naar de juiste omgeving. Het spel kan bijvoorbeeld in een gymzaal, sporthal of andere veilige open ruimte worden gespeeld. Door goed te luisteren, samen te werken en rustig te bewegen, proberen de spelers de missie te halen."
-}
-},
-"rechter": {
-"type": "image",
-"src": "/images/quest_zone/setup.png",
-"paletKleur": "blauw",
-"afbeelding": {
-"categorie": "geluid",
-"alt": "Overzicht van Quest Zone in een veilige open speelruimte. Het veld is verdeeld in een startkamp, bos, rivier, grot en kasteel als doelzone. In het midden ligt de Visiobal met geluidsgolven eromheen.",
-"onderschrift": "1. SETUP — Een flexibel speelveld met verhaalzones en de Visiobal als geluidsbron."
-}
-}
-},
-{
-"id": "qz-spread-2",
-"linker": {
-"type": "image",
-"src": "/images/quest_zone/story_mission.png",
-"paletKleur": "groen",
-"afbeelding": {
-"categorie": "samenwerking",
-"alt": "Een trainer vertelt een missie aan twee kinderen. De kinderen staan klaar in het speelveld en luisteren naar de opdracht en het geluid van de Visiobal.",
-"onderschrift": "2. MISSIE — De trainer start elke ronde met een korte verhaalmissie."
-}
-},
-"rechter": {
-"type": "combination",
-"titel": "De Verhaalmissie",
-"inhoud": "Elke ronde begint met een korte missie van de trainer. De trainer noemt een omgeving uit het verhaal, zoals het bos, de rivier, de grot of het kasteel.\n\nVoorbeeld:\n'Jullie staan in het startkamp. De magische bal moet naar het bos worden gebracht, want daar ligt de eerste aanwijzing.'\n\nDe spelers luisteren naar de opdracht, zoeken het geluid van de Visiobal en bewegen de bal samen naar de juiste omgeving. Hierdoor wordt oriëntatie gekoppeld aan fantasie, beweging en samenwerking.",
-"audio": {
-"label": "Voorbeeldmissie – Naar het bos",
-"src": "/audio/quest_zone/forest_beacon.mp3",
-"transcript": "Jullie staan in het startkamp. De magische bal moet naar het bos worden gebracht, want daar ligt de eerste aanwijzing. Luister naar de Visiobal, overleg met elkaar en beweeg rustig naar de boszone."
-}
-}
-},
-{
-"id": "qz-spread-3",
-"linker": {
-"type": "combination",
-"titel": "Oriëntatie door Geluid",
-"inhoud": "Quest Zone is vooral bedoeld als oefenspel voor geluidsoriëntatie. Tijdens de feedback gaf de trainer aan dat dit idee goed aansluit bij hoe kinderen vaak beginnen: eerst leren luisteren, bewegen en de ruimte herkennen.\n\nDe spelers oefenen met:\n• herkennen waar de bal is\n• richting bepalen op gehoor\n• rustig bewegen in een afgebakend veld\n• samenwerken en communiceren\n• vertrouwen op auditieve informatie\n\nDe basisversie gebruikt het geluid van de Visiobal. Als uitbreiding kunnen zones later een eigen omgevingsgeluid krijgen.",
-"audio": {
-"label": "Omgevingsgeluid – Rivierzone",
-"src": "/audio/quest_zone/river_beacon.mp3",
-"transcript": "Je hoort nu het geluid van de rivierzone. Dit watergeluid kan spelers helpen om de rivieromgeving te herkennen. In Quest Zone kunnen zulke geluiden later worden gebruikt als extra ondersteuning voor oriëntatie."
-}
-},
-"rechter": {
-"type": "image",
-"src": "/images/quest_zone/beacon_zones.png",
-"paletKleur": "blauw",
-"afbeelding": {
-"categorie": "geluid",
-"alt": "Vier zones met mogelijke omgevingsgeluiden: vogels bij het bos, water bij de rivier, echo bij de grot en een succesgeluid bij het kasteel.",
-"onderschrift": "3. GELUIDSZONES — Beacons of speakers kunnen later extra omgevingsgeluiden toevoegen."
-}
-}
-},
-{
-"id": "qz-spread-4",
-"linker": {
-"type": "image",
-"src": "/images/quest_zone/group_version.png",
-"paletKleur": "blauw",
-"afbeelding": {
-"categorie": "samenwerking",
-"alt": "Grote groepsversie van Quest Zone. Twee duo's zijn actief in het speelveld en andere kinderen wachten in een aparte wachtzone tot zij aan de beurt zijn.",
-"onderschrift": "4. GROEPSVERSIE — Grotere groepen spelen in duo's en wisselen per missie."
-}
-},
-"rechter": {
-"type": "combination",
-"titel": "Spelvorm & Groepsgrootte",
-"inhoud": "Quest Zone kan klein beginnen en daarna worden uitgebreid.\n\nBasisversie:\n• 2 spelers\n• 1 trainer\n• samen de missie halen\n\nGroepsversie:\n• 6–8 kinderen\n• spelen in duo's\n• 1 of 2 duo's actief per ronde\n• andere kinderen wachten in een wachtzone\n• 1 trainer en eventueel 1 extra begeleider\n\nDeze opbouw houdt het spel veilig en overzichtelijk. Niet iedereen beweegt tegelijk door het veld, zodat spelers beter kunnen luisteren en de trainer overzicht houdt.",
-"audio": {
-"label": "Groepsuitleg",
-"src": "/audio/quest_zone/group_explanation.mp3",
-"transcript": "Bij de groepsversie spelen kinderen in duo's. Eén of twee duo's zijn actief in het veld en de andere kinderen wachten rustig in de wachtzone. Zo blijft het spel overzichtelijk, veilig en geschikt voor een grotere groep."
-}
-}
-},
-{
-"id": "qz-spread-5",
-"linker": {
-"type": "text",
-"titel": "Materialen & Spelverloop",
-"inhoud": "Wat heb je nodig:\n\n• 1 Visiobal\n• Gymzaal, sporthal of andere veilige open ruimte\n• Fysieke zones, bijvoorbeeld matten, pionnen of voelbare lijnen\n• Zonekaarten of symbolen voor bos, rivier, grot en kasteel\n• Trainer als verhalenverteller en begeleider\n• Eventueel speakers, telefoon of beacons voor extra omgevingsgeluiden\n\nSpelverloop:\n1. De trainer bakent het speelveld en de zones af.\n2. De trainer legt de veiligheidsregels uit.\n3. De trainer vertelt een korte missie.\n4. De spelers luisteren naar de Visiobal.\n5. De spelers bewegen de bal samen naar de juiste omgeving.\n6. Als de bal de juiste zone bereikt, geeft de trainer feedback.\n7. Daarna start een nieuwe missie of komt het volgende duo aan de beurt."
-},
-"rechter": {
-"type": "text",
-"titel": "Variaties & Leerdoelen",
-"inhoud": "Makkelijker:\n→ Gebruik een kleiner speelveld.\n→ Gebruik minder zones.\n→ Laat de trainer extra verbale begeleiding geven.\n→ Speel met één duo tegelijk.\n\nMoeilijker:\n→ Voeg meer zones toe.\n→ Gebruik tijdsdruk.\n→ Laat spelers alleen op geluid navigeren.\n→ Voeg extra verhaalmissies toe.\n→ Laat meerdere duo's om de beurt dezelfde missie uitvoeren.\n\nDit spel ontwikkelt:\n✦ Geluidsoriëntatie\n✦ Ruimtelijk inzicht\n✦ Samenwerking\n✦ Communicatie\n✦ Vertrouwen in bewegen\n✦ Luisteren naar instructies"
-}
-},
-{
-"id": "qz-spread-6",
-"linker": {
-"type": "text",
-"titel": "Technische Realisatie",
-"subtitel": "Basisversie",
-"badge": "For Developers",
-"badgeKleur": "#1a6b3c",
-"inhoud": "De basisversie van Quest Zone is bewust eenvoudig en direct uitvoerbaar.\n\nBenodigdheden:\n• Visiobal als centrale geluidsbron\n• Fysieke zone-indeling op de vloer\n• Trainer die de missie vertelt\n• Trainer die controleert of de juiste zone is bereikt\n• Eventueel een telefoon of laptop om voorbeeldgeluiden af te spelen\n\nIn deze versie wordt zoneherkenning nog handmatig gedaan door de trainer. De focus ligt eerst op het testen van de spelervaring, veiligheid en oriëntatie. Dit maakt de basisversie haalbaar zonder dat er direct extra hardware nodig is."
-},
-"rechter": {
-"type": "text",
-"titel": "Technische Realisatie",
-"subtitel": "Beacons & Geluidszones",
-"inhoud": "Als technische uitbreiding kunnen beacons, speakers of een soundboard worden toegevoegd.\n\nMogelijke werking:\n• Boszone → vogelgeluiden\n• Rivierzone → watergeluid\n• Grotzone → echo of lage toon\n• Kasteel/doelzone → succesgeluid\n\nDe beacons helpen spelers om niet alleen de bal, maar ook de omgeving te herkennen. Hierdoor krijgt geluid meer betekenis binnen het spel.\n\nVoor een eerste proof of concept kan dit worden gesimuleerd met een soundboard-component in het draaiboek. De trainer activeert dan per zone handmatig een geluid. Later kan automatische zoneherkenning onderzocht worden met Bluetooth beacons, RFID-tags of sensoren."
-}
-},
-{
-"id": "qz-spread-7",
-"linker": {
-"type": "combination",
-"titel": "Feedback & Validatie",
-"inhoud": "Na een korte pitch aan de Visiobal-trainer kreeg ik terug dat Quest Zone een leuk idee is om met oriëntatie te oefenen. De trainer gaf aan dat kinderen vaak beginnen met dit soort oefeningen, waarbij luisteren, bewegen en ruimte herkennen centraal staan.\n\nDeze feedback bevestigt dat Quest Zone vooral sterk is als introductie- of oriëntatiespel. Daarom werk ik het concept verder uit als laagdrempelige spelvorm waarin kinderen stap voor stap leren luisteren naar de bal en bewegen naar een omgeving.\n\nDe technische uitbreiding met beacons blijft een mogelijke vervolgstap. Eerst wil ik aantonen dat het spelconcept en de basisopstelling begrijpelijk, veilig en speelbaar zijn.",
-"audio": {
-"label": "Succesfeedback – Missie gehaald",
-"src": "/audio/quest_zone/success_feedback.mp3",
-"transcript": "Goed gedaan. Jullie hebben de juiste zone bereikt. De magische bal is veilig aangekomen en de missie is gelukt. Wacht nu op de volgende opdracht van de trainer."
-}
-},
-"rechter": {
-"type": "image",
-"src": "/images/quest_zone/technical_setup.png",
-"paletKleur": "groen",
-"afbeelding": {
-"categorie": "kaart",
-"alt": "Schematische technische opstelling van Quest Zone. De Visiobal ligt in het veld, de zones zijn fysiek afgebakend, optionele beacons staan bij de zones en de trainer gebruikt een soundboard om geluiden te activeren.",
-"onderschrift": "5. TECHNISCHE OPSTELLING — De basisversie werkt met trainer en Visiobal; beacons kunnen later worden toegevoegd."
-}
-}
-}
-]
+  "id": "concept-quest-zone-idil",
+  "auteur": "Idil Geesaale",
+  "titel": "Quest Zone",
+  "kleur": "#1a5276",
+  "paginaPairs": [
+    {
+      "id": "qz-spread-1",
+      "linker": {
+        "type": "combination",
+        "titel": "Quest Zone",
+        "subtitel": "Verhalend oriëntatiespel met de Visiobal",
+        "badge": "Oriëntatie & Geluid",
+        "badgeKleur": "#1a5276",
+        "inhoud": "Quest Zone is een verhalend oriëntatiespel waarbij kinderen de Visiobal naar de juiste omgeving brengen.\n\nDe trainer vertelt een korte missie, bijvoorbeeld: 'Breng de magische bal naar het bos.' De spelers gebruiken het geluid van de Visiobal om de bal te volgen en samen naar de juiste zone te bewegen.\n\nHet spel is flexibel inzetbaar. Een gymzaal of sporthal is een geschikte voorbeeldlocatie, maar Quest Zone kan ook op een andere veilige open ruimte worden gespeeld zolang het speelveld duidelijk is afgebakend.\n\nLeeftijd: 6–12 jaar\nGroepsgrootte: 2–8 kinderen\nDuur: 10–20 minuten",
+        "audio": {
+          "label": "Beluister de speluitleg",
+          "src": "/audio/quest_zone/mission_intro.mp3",
+          "transcript": "Welkom bij Quest Zone. In dit spel vertelt de trainer een korte missie. De spelers luisteren naar het geluid van de Visiobal en brengen de bal samen naar de juiste omgeving. Het spel kan bijvoorbeeld in een gymzaal, sporthal of andere veilige open ruimte worden gespeeld. Door goed te luisteren, samen te werken en rustig te bewegen, proberen de spelers de missie te halen."
+        }
+      },
+      "rechter": {
+        "type": "image",
+        "src": "/images/quest_zone/setup.png",
+        "paletKleur": "blauw",
+        "afbeelding": {
+          "categorie": "geluid",
+          "alt": "Overzicht van Quest Zone in een veilige open speelruimte. Het veld is verdeeld in een startkamp, bos, rivier, grot en kasteel als doelzone. In het midden ligt de Visiobal met geluidsgolven eromheen.",
+          "onderschrift": "1. SETUP — Een flexibel speelveld met verhaalzones en de Visiobal als geluidsbron."
+        }
+      }
+    },
+    {
+      "id": "qz-spread-2",
+      "linker": {
+        "type": "image",
+        "src": "/images/quest_zone/story_mission.png",
+        "paletKleur": "groen",
+        "afbeelding": {
+          "categorie": "samenwerking",
+          "alt": "Een trainer vertelt een missie aan twee kinderen. De kinderen staan klaar in het speelveld en luisteren naar de opdracht en het geluid van de Visiobal.",
+          "onderschrift": "2. MISSIE — De trainer start elke ronde met een korte verhaalmissie."
+        }
+      },
+      "rechter": {
+        "type": "combination",
+        "titel": "De Verhaalmissie",
+        "inhoud": "Elke ronde begint met een korte missie van de trainer. De trainer noemt een omgeving uit het verhaal, zoals het bos, de rivier, de grot of het kasteel.\n\nVoorbeeld:\n'Jullie staan in het startkamp. De magische bal moet naar het bos worden gebracht, want daar ligt de eerste aanwijzing.'\n\nDe spelers luisteren naar de opdracht, zoeken het geluid van de Visiobal en bewegen de bal samen naar de juiste omgeving. Hierdoor wordt oriëntatie gekoppeld aan fantasie, beweging en samenwerking.",
+        "audio": {
+          "label": "Omgevingsgeluid – Boszone",
+          "src": "/audio/quest_zone/forest_beacon.mp3",
+          "transcript": "Bosgeluiden met vogels, bladeren en zachte wind. Dit geluid helpt spelers om de boszone te herkennen en ondersteunt de oriëntatie binnen het speelveld."
+        }
+      }
+    },
+    {
+      "id": "qz-spread-3",
+      "linker": {
+        "type": "combination",
+        "titel": "Oriëntatie door Geluid",
+        "inhoud": "Quest Zone is vooral bedoeld als oefenspel voor geluidsoriëntatie. Tijdens de feedback gaf de trainer aan dat dit idee goed aansluit bij hoe kinderen vaak beginnen: eerst leren luisteren, bewegen en de ruimte herkennen.\n\nDe spelers oefenen met:\n• herkennen waar de bal is\n• richting bepalen op gehoor\n• rustig bewegen in een afgebakend veld\n• samenwerken en communiceren\n• vertrouwen op auditieve informatie\n\nDe basisversie gebruikt het geluid van de Visiobal. Als uitbreiding kunnen zones later een eigen omgevingsgeluid krijgen.",
+        "audio": {
+          "label": "Omgevingsgeluid – Rivierzone",
+          "src": "/audio/quest_zone/river_beacon.mp3",
+          "transcript": "Stromend water en riviergeluiden. Dit geluid helpt spelers om de rivierzone te herkennen en ondersteunt de oriëntatie binnen het speelveld."
+        }
+      },
+      "rechter": {
+        "type": "image",
+        "src": "/images/quest_zone/beacon_zones.png",
+        "paletKleur": "blauw",
+        "afbeelding": {
+          "categorie": "geluid",
+          "alt": "Vier zones met mogelijke omgevingsgeluiden: vogels bij het bos, water bij de rivier, echo bij de grot en een succesgeluid bij het kasteel.",
+          "onderschrift": "3. GELUIDSZONES — Beacons of speakers kunnen later extra omgevingsgeluiden toevoegen."
+        }
+      }
+    },
+    {
+      "id": "qz-spread-4",
+      "linker": {
+        "type": "image",
+        "src": "/images/quest_zone/group_version.png",
+        "paletKleur": "blauw",
+        "afbeelding": {
+          "categorie": "samenwerking",
+          "alt": "Grote groepsversie van Quest Zone. Twee duo's zijn actief in het speelveld en andere kinderen wachten in een aparte wachtzone tot zij aan de beurt zijn.",
+          "onderschrift": "4. GROEPSVERSIE — Grotere groepen spelen in duo's en wisselen per missie."
+        }
+      },
+      "rechter": {
+        "type": "combination",
+        "titel": "Spelvorm & Groepsgrootte",
+        "inhoud": "Quest Zone kan klein beginnen en daarna worden uitgebreid.\n\nBasisversie:\n• 2 spelers\n• 1 trainer\n• samen de missie halen\n\nGroepsversie:\n• 6–8 kinderen\n• spelen in duo's\n• 1 of 2 duo's actief per ronde\n• andere kinderen wachten in een wachtzone\n• 1 trainer en eventueel 1 extra begeleider\n\nDeze opbouw houdt het spel veilig en overzichtelijk. Niet iedereen beweegt tegelijk door het veld, zodat spelers beter kunnen luisteren en de trainer overzicht houdt.",
+        "audio": {
+          "label": "Groepsuitleg",
+          "src": "/audio/quest_zone/group_explanation.mp3",
+          "transcript": "Bij de groepsversie spelen kinderen in duo's. Eén of twee duo's zijn actief in het veld en de andere kinderen wachten rustig in de wachtzone. Zo blijft het spel overzichtelijk, veilig en geschikt voor een grotere groep."
+        }
+      }
+    },    {
+      "id": "qz-spread-5",
+      "linker": {
+        "type": "text",
+        "titel": "Materialen & Spelverloop",
+        "inhoud": "Wat heb je nodig:\n\n• 1 Visiobal\n• Gymzaal, sporthal of andere veilige open ruimte\n• Fysieke zones, bijvoorbeeld matten, pionnen of voelbare lijnen\n• Zonekaarten of symbolen voor bos, rivier, grot en kasteel\n• Trainer als verhalenverteller en begeleider\n• Eventueel speakers, telefoon of beacons voor extra omgevingsgeluiden\n\nSpelverloop:\n1. De trainer bakent het speelveld en de zones af.\n2. De trainer legt de veiligheidsregels uit.\n3. De trainer vertelt een korte missie.\n4. De spelers luisteren naar de Visiobal.\n5. De spelers bewegen de bal samen naar de juiste omgeving.\n6. Als de bal de juiste zone bereikt, geeft de trainer feedback.\n7. Daarna start een nieuwe missie of komt het volgende duo aan de beurt."
+      },
+      "rechter": {
+        "type": "text",
+        "titel": "Variaties & Leerdoelen",
+        "inhoud": "Makkelijker:\n→ Gebruik een kleiner speelveld.\n→ Gebruik minder zones.\n→ Laat de trainer extra verbale begeleiding geven.\n→ Speel met één duo tegelijk.\n\nMoeilijker:\n→ Voeg meer zones toe.\n→ Gebruik tijdsdruk.\n→ Laat spelers alleen op geluid navigeren.\n→ Voeg extra verhaalmissies toe.\n→ Laat meerdere duo's om de beurt dezelfde missie uitvoeren.\n\nDit spel ontwikkelt:\n✦ Geluidsoriëntatie\n✦ Ruimtelijk inzicht\n✦ Samenwerking\n✦ Communicatie\n✦ Vertrouwen in bewegen\n✦ Luisteren naar instructies"
+      }
+    },
+    {
+      "id": "qz-spread-6",
+      "linker": {
+        "type": "text",
+        "titel": "Technische Realisatie",
+        "subtitel": "Basisversie",
+        "badge": "For Developers",
+        "badgeKleur": "#1a6b3c",
+        "inhoud": "De basisversie van Quest Zone is bewust eenvoudig en direct uitvoerbaar.\n\nBenodigdheden:\n• Visiobal als centrale geluidsbron\n• Fysieke zone-indeling op de vloer\n• Trainer die de missie vertelt\n• Trainer die controleert of de juiste zone is bereikt\n• Eventueel een telefoon of laptop om voorbeeldgeluiden af te spelen\n\nIn deze versie wordt zoneherkenning nog handmatig gedaan door de trainer. De focus ligt eerst op het testen van de spelervaring, veiligheid en oriëntatie. Dit maakt de basisversie haalbaar zonder dat er direct extra hardware nodig is."
+      },
+      "rechter": {
+        "type": "text",
+        "titel": "Technische Realisatie",
+        "subtitel": "Beacons & Geluidszones",
+        "inhoud": "Als technische uitbreiding kunnen beacons, speakers of een soundboard worden toegevoegd.\n\nMogelijke werking:\n• Boszone → vogelgeluiden\n• Rivierzone → watergeluid\n• Grotzone → echo of lage toon\n• Kasteel/doelzone → succesgeluid\n\nDe extra geluidsbronnen helpen spelers om niet alleen de bal, maar ook de omgeving te herkennen. Hierdoor krijgt geluid meer betekenis binnen het spel en kan de speler beter bepalen waar hij zich bevindt en waar hij naartoe moet.\n\nVoor een eerste proof of concept wordt gewerkt met een eenvoudig soundboard. De trainer activeert handmatig een omgevingsgeluid dat past bij de missie. Hierdoor kan getest worden of extra geluidsfeedback de oriëntatie ondersteunt zonder direct complexe hardware te gebruiken.\n\nLater kan onderzocht worden of Bluetooth-beacons, RFID-tags of sensoren gebruikt kunnen worden om zones automatisch te herkennen en feedback te geven."
+      }
+    },
+    {
+      "id": "qz-spread-7",
+      "linker": {
+        "type": "combination",
+        "titel": "Feedback & Validatie",
+        "inhoud": "Na een korte pitch aan de Visiobal-trainer kreeg ik terug dat Quest Zone een leuk idee is om met oriëntatie te oefenen. De trainer gaf aan dat kinderen vaak beginnen met dit soort oefeningen, waarbij luisteren, bewegen en ruimte herkennen centraal staan.\n\nDeze feedback bevestigt dat Quest Zone vooral sterk is als introductie- of oriëntatiespel. Deze feedback heeft geleid tot een aanpassing van het concept. Waar Quest Zone eerst bedoeld was als uitgebreider verhaalspel, ligt de focus nu bewust op oriëntatie, luisteren en het leren herkennen van ruimtes en geluiden. Daarom werk ik het concept verder uit als laagdrempelige spelvorm waarin kinderen stap voor stap leren luisteren naar de bal en bewegen naar een omgeving.\n\nDe technische uitbreiding met beacons blijft een mogelijke vervolgstap. Eerst wil ik aantonen dat het spelconcept en de basisopstelling begrijpelijk, veilig en speelbaar zijn.",
+        "audio": {
+          "label": "Succesfeedback – Missie gehaald",
+          "src": "/audio/quest_zone/success_feedback.mp3",
+          "transcript": "Goed gedaan. Jullie hebben de juiste zone bereikt. De magische bal is veilig aangekomen en de missie is gelukt. Wacht nu op de volgende opdracht van de trainer."
+        }
+      },
+      "rechter": {
+        "type": "image",
+        "src": "/images/quest_zone/technical_setup.png",
+        "paletKleur": "groen",
+        "afbeelding": {
+          "categorie": "kaart",
+          "alt": "Schematische technische opstelling van Quest Zone. De Visiobal ligt in het veld, de zones zijn fysiek afgebakend, optionele beacons staan bij de zones en de trainer gebruikt een soundboard om geluiden te activeren.",
+          "onderschrift": "5. TECHNISCHE OPSTELLING — De basisversie werkt met trainer en Visiobal; beacons kunnen later worden toegevoegd."
+        }
+      }
+    }
+  ]
 }
