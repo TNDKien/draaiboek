@@ -128,28 +128,23 @@
         "inhoud": "Game State Machine\n\nIDLE → MISSION_START → ACTIVE_PLAY → SUCCESS → NEXT_MISSION\n\nMissie Flow\n\n1. Trainer kiest een missie.\n2. Het systeem activeert het bijbehorende zonegeluid.\n3. Spelers volgen de Visiobal en oriënteren zich op de omgeving.\n4. De juiste zone wordt bereikt.\n5. Het succesgeluid wordt afgespeeld.\n6. Een nieuwe missie start.\n\nToekomstige Uitbreiding\n\n• Bluetooth Low Energy beacons per zone\n• Automatische zoneherkenning\n• Dashboard voor trainers\n• Registratie van speeltijd en missies\n• Realtime feedback via audio\n\nAanbevolen Stack\n\n• Front-end: React / Next.js\n• Audio: Web Audio API\n• Soundboard: HTML Audio + JavaScript\n• Hardware uitbreiding: ESP32 + BLE Beacons"
       }
     },
-    {
-      "id": "qz-spread-7",
-      "linker": {
-        "type": "combination",
-        "titel": "Feedback & Validatie",
-        "inhoud": "Na een korte pitch aan de Visiobal-trainer kreeg ik terug dat Quest Zone een leuk idee is om met oriëntatie te oefenen. De trainer gaf aan dat kinderen vaak beginnen met dit soort oefeningen, waarbij luisteren, bewegen en ruimte herkennen centraal staan.\n\nDeze feedback bevestigt dat Quest Zone vooral sterk is als introductie- of oriëntatiespel. Deze feedback heeft geleid tot een aanpassing van het concept. Waar Quest Zone eerst bedoeld was als uitgebreider verhaalspel, ligt de focus nu bewust op oriëntatie, luisteren en het leren herkennen van ruimtes en geluiden.\n\nDe technische uitbreiding met beacons blijft een mogelijke vervolgstap. Eerst wil ik aantonen dat het spelconcept en de basisopstelling begrijpelijk, veilig en speelbaar zijn.",
-        "audio": {
-          "label": "Succesfeedback – Missie gehaald",
-          "src": "/audio/quest_zone/success_feedback.mp3",
-          "transcript": "Goed gedaan. Jullie hebben de juiste zone bereikt. De magische bal is veilig aangekomen en de missie is gelukt. Wacht nu op de volgende opdracht van de trainer."
-        }
-      },
-      "rechter": {
-        "type": "image",
-        "src": "/images/quest_zone/technical_setup.png",
-        "paletKleur": "groen",
-        "afbeelding": {
-          "categorie": "kaart",
-          "alt": "Schematische technische opstelling van Quest Zone. De trainer gebruikt een soundboard of tablet om omgevingsgeluiden te activeren. De Visiobal ligt centraal in het speelveld. Zones kunnen later worden uitgebreid met beacons voor automatische herkenning.",
-          "onderschrift": "5. TECHNISCHE OPSTELLING — Soundboard als MVP, beacons als mogelijke uitbreiding."
-        }
-      }
+{
+  "id": "qz-spread-7",
+  "linker": {
+    "type": "text",
+    "titel": "Toekomstige Uitbreidingen",
+    "inhoud": "Quest Zone kan verder worden uitgebreid met nieuwe missies, zones en geluidsomgevingen.\n\nMogelijke uitbreidingen:\n\n• Woestijnzone met windgeluiden\n• Junglezone met diergeluiden\n• Ruimtezone met futuristische geluiden\n• Nachtmissies met beperkte begeleiding\n• Teamuitdagingen voor grotere groepen\n\nDaarnaast kan automatische zoneherkenning worden toegevoegd met beacons of andere sensortechnologie. Hierdoor kan het systeem zelfstandig herkennen welke zone is bereikt en automatisch feedback geven.\n\nHierdoor blijft het spel uitdagend voor verschillende leeftijden en ervaringsniveaus."
+  },
+  "rechter": {
+    "type": "image",
+    "src": "/images/quest_zone/technical_setup.png",
+    "paletKleur": "groen",
+    "afbeelding": {
+      "categorie": "kaart",
+      "alt": "Schematische technische opstelling van Quest Zone. De trainer gebruikt een soundboard of tablet om omgevingsgeluiden te activeren. De Visiobal ligt centraal in het speelveld. Zones kunnen later worden uitgebreid met beacons voor automatische herkenning.",
+      "onderschrift": "5. TOEKOMSTVISIE — Quest Zone kan worden uitgebreid met extra zones, geluiden en automatische herkenning."
+    }
+  }
     }
   ]
 }
