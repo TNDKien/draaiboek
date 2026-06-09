@@ -93,7 +93,24 @@
         "titel": "Scoren & Tactiek",
         "inhoud": "Een doelpunt wordt gescoord wanneer het aanvallende team de bal vakkundig langs de verdedigers én tussen de actieve mijnen door weet te rollen, totdat deze volledig de doellijn passeert.\n\nZodra de bal de achterlijn raakt, klinkt het doelsignaal en krijgt het aanvallende team een punt. De opstelling wordt hierna gereset voor de volgende ronde.\n\nToegankelijkheidstip:\nDoor het contrast tussen de hoge tonen van de mijnen en de rammelende bal, maken spelers via hun gehoor een 3D-plattegrond in hun hoofd van de veilige zones."
         }
+      },
+          {
+      "id": "zo-spread-7",
+      "linker": {
+        "type": "text",
+        "titel": "Technische Realisatie",
+        "subtitel": "Hardware & Communicatie",
+        "badge": "Voor Developers",
+        "badgeKleur": "#1a6b3c",
+        "inhoud": "Visioball (slimme bal)\n• Microcontroller: ESP32 (Wi-Fi + BLE ingebouwd)\n• Bewegingssensor: IMU MPU-6050 (versnelling → pitch rolgeluid)\n• Audio-output: kleine versterker + 8Ω luidspreker in de bal\n• Voeding: LiPo 3.7V, draadloos opladen via Qi\n• BLE-rol: Peripheral — adverteert UUID + sensordata\n\nBeacons (mijnen)\n• Hardware: nRF52-gebaseerde BLE-beacon (bijv. Minew E7)\n• Adverteert iBeacon-pakket met uniek Major/Minor ID\n• Geen actieve verbinding nodig — app leest RSSI passief\n• Afstandsmapping: RSSI ≥ −65 dBm ≈ binnen 0,5m mijnveld\n\nApp (spelleider/referee device)\n• Platform: iOS of Android (of web via Web Bluetooth API)\n• BLE-rol: Central — scant continu alle Beacon-RSSI-waarden\n• Verwerkt gamelogica en stuurt geluidsfeedback aan"
+      },
+      "rechter": {
+        "type": "text",
+        "titel": "Technische Realisatie",
+        "subtitel": "Software & Spellogica",
+        "inhoud": "Game State Machine\nIDLE → PLAYING → MINE_EXPLOSION → GAME_OVER\n\n pt alle BLE-advertenties)\n\nGeluid triggers (app-side)\n• Rolgeluid pitch: map(imu_acceleration, 0, 10, 220, 880) Hz\n• Identificatiegeluid: uniek per Beacon-ID (Major waarde)\n\nAanbevolen stack\n• App: React Native + expo-ble-plx (BLE) + expo-av (audio)\n• Alternatief web: Web Bluetooth API + Web Audio API\n• Balcode: Arduino IDE op ESP32, library: BLE2902\n• Communicatie bal → app: BLE Notify op custom GATT characteristic"
       }
+    }
 
   ]
 }
